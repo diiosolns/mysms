@@ -1,0 +1,32 @@
+accesscode	 =>all 
+	accesscodeall_gm	 	=>Access code for all generator services
+	accesscodeall_pm	 	=>Access code for all pm
+	generatorservice	 	=>Answers for all generator services
+	photo1	 	=>Pm Photos 
+	pm_qn_airtel	 	=>All PMS,GS,AT Questions
+	preventivemaintenance	 	=>all preventive maintanance answers 
+	region	 	=>All regens are registered here
+	site	 	=>All sites are registered here
+	site_class	 	=>Site Class Information
+	unit	 	=>
+	user_info	 	=>Users Information
+	zone	 	=>All Zone Information
+
+
+
+NOTE (5/8/2017)
+*** accessCode column in generatorservice table has been changesd
+		=> accesscode column chaged to VARCHAR
+		=> Auto increment removed
+
+***Altered accesscodeall_pm and accesscodeall_gm
+		=> added date column
+
+
+
+(09/27/2017) -SYSTEM EMAIL ADDRESS
+EmAIL ; sic.info17@gmail.com
+Pwrd : System.123
+NAME : Moris SIC
+BD : 10/10/1990
+Mobile : +255684544167

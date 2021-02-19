@@ -1,0 +1,128 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+INFO - 2020-07-21 05:44:46 --> Config Class Initialized
+INFO - 2020-07-21 05:44:46 --> Hooks Class Initialized
+DEBUG - 2020-07-21 05:44:46 --> UTF-8 Support Enabled
+INFO - 2020-07-21 05:44:46 --> Utf8 Class Initialized
+INFO - 2020-07-21 05:44:46 --> URI Class Initialized
+DEBUG - 2020-07-21 05:44:46 --> No URI present. Default controller set.
+INFO - 2020-07-21 05:44:46 --> Router Class Initialized
+INFO - 2020-07-21 05:44:46 --> Output Class Initialized
+INFO - 2020-07-21 05:44:46 --> Security Class Initialized
+DEBUG - 2020-07-21 05:44:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-21 05:44:46 --> Input Class Initialized
+INFO - 2020-07-21 05:44:46 --> Language Class Initialized
+INFO - 2020-07-21 05:44:46 --> Language Class Initialized
+INFO - 2020-07-21 05:44:46 --> Config Class Initialized
+INFO - 2020-07-21 05:44:46 --> Loader Class Initialized
+INFO - 2020-07-21 05:44:46 --> Helper loaded: form_helper
+INFO - 2020-07-21 05:44:46 --> Helper loaded: url_helper
+INFO - 2020-07-21 05:44:46 --> Helper loaded: html_helper
+INFO - 2020-07-21 05:44:46 --> Database Driver Class Initialized
+DEBUG - 2020-07-21 05:44:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-07-21 05:44:46 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-21 05:44:46 --> Controller Class Initialized
+DEBUG - 2020-07-21 05:44:46 --> Home MX_Controller Initialized
+DEBUG - 2020-07-21 05:44:46 --> Home MX_Controller Initialized
+INFO - 2020-07-21 05:44:46 --> Helper loaded: download_helper
+INFO - 2020-07-21 05:44:46 --> Helper loaded: text_helper
+INFO - 2020-07-21 05:44:46 --> Model Class Initialized
+DEBUG - 2020-07-21 05:44:46 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/models/Mdl_home.php
+INFO - 2020-07-21 05:44:46 --> Model Class Initialized
+DEBUG - 2020-07-21 05:44:46 --> File loaded: /home/diiola5/dsms.diiolab.com/application/controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2020-07-21 05:44:46 --> Admin MX_Controller Initialized
+INFO - 2020-07-21 05:44:46 --> Helper loaded: date_helper
+DEBUG - 2020-07-21 05:44:46 --> File loaded: /home/diiola5/dsms.diiolab.com/application/controllers/../modules/Users/controllers/Users.php
+DEBUG - 2020-07-21 05:44:46 --> users MX_Controller Initialized
+INFO - 2020-07-21 05:44:46 --> Helper loaded: language_helper
+INFO - 2020-07-21 05:44:46 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2020-07-21 05:44:46 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2020-07-21 05:44:46 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/homeSearch.php
+DEBUG - 2020-07-21 05:44:46 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/bfooter.php
+DEBUG - 2020-07-21 05:44:46 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/index.php
+INFO - 2020-07-21 05:44:46 --> Final output sent to browser
+DEBUG - 2020-07-21 05:44:46 --> Total execution time: 0.3943
+INFO - 2020-07-21 05:54:11 --> Config Class Initialized
+INFO - 2020-07-21 05:54:11 --> Hooks Class Initialized
+DEBUG - 2020-07-21 05:54:11 --> UTF-8 Support Enabled
+INFO - 2020-07-21 05:54:11 --> Utf8 Class Initialized
+INFO - 2020-07-21 05:54:11 --> URI Class Initialized
+DEBUG - 2020-07-21 05:54:11 --> No URI present. Default controller set.
+INFO - 2020-07-21 05:54:11 --> Router Class Initialized
+INFO - 2020-07-21 05:54:11 --> Output Class Initialized
+INFO - 2020-07-21 05:54:11 --> Security Class Initialized
+DEBUG - 2020-07-21 05:54:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-21 05:54:11 --> Input Class Initialized
+INFO - 2020-07-21 05:54:11 --> Language Class Initialized
+INFO - 2020-07-21 05:54:11 --> Language Class Initialized
+INFO - 2020-07-21 05:54:11 --> Config Class Initialized
+INFO - 2020-07-21 05:54:11 --> Loader Class Initialized
+INFO - 2020-07-21 05:54:11 --> Helper loaded: form_helper
+INFO - 2020-07-21 05:54:11 --> Helper loaded: url_helper
+INFO - 2020-07-21 05:54:11 --> Helper loaded: html_helper
+INFO - 2020-07-21 05:54:11 --> Database Driver Class Initialized
+DEBUG - 2020-07-21 05:54:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-07-21 05:54:11 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-21 05:54:11 --> Controller Class Initialized
+DEBUG - 2020-07-21 05:54:11 --> Home MX_Controller Initialized
+DEBUG - 2020-07-21 05:54:11 --> Home MX_Controller Initialized
+INFO - 2020-07-21 05:54:11 --> Helper loaded: download_helper
+INFO - 2020-07-21 05:54:11 --> Helper loaded: text_helper
+INFO - 2020-07-21 05:54:11 --> Model Class Initialized
+DEBUG - 2020-07-21 05:54:11 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/models/Mdl_home.php
+INFO - 2020-07-21 05:54:11 --> Model Class Initialized
+DEBUG - 2020-07-21 05:54:11 --> File loaded: /home/diiola5/dsms.diiolab.com/application/controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2020-07-21 05:54:11 --> Admin MX_Controller Initialized
+INFO - 2020-07-21 05:54:11 --> Helper loaded: date_helper
+DEBUG - 2020-07-21 05:54:11 --> File loaded: /home/diiola5/dsms.diiolab.com/application/controllers/../modules/Users/controllers/Users.php
+DEBUG - 2020-07-21 05:54:11 --> users MX_Controller Initialized
+INFO - 2020-07-21 05:54:11 --> Helper loaded: language_helper
+INFO - 2020-07-21 05:54:11 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2020-07-21 05:54:11 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2020-07-21 05:54:11 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/homeSearch.php
+DEBUG - 2020-07-21 05:54:11 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/bfooter.php
+DEBUG - 2020-07-21 05:54:11 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/index.php
+INFO - 2020-07-21 05:54:11 --> Final output sent to browser
+DEBUG - 2020-07-21 05:54:11 --> Total execution time: 0.2338
+INFO - 2020-07-21 13:35:41 --> Config Class Initialized
+INFO - 2020-07-21 13:35:41 --> Hooks Class Initialized
+DEBUG - 2020-07-21 13:35:41 --> UTF-8 Support Enabled
+INFO - 2020-07-21 13:35:41 --> Utf8 Class Initialized
+INFO - 2020-07-21 13:35:41 --> URI Class Initialized
+DEBUG - 2020-07-21 13:35:41 --> No URI present. Default controller set.
+INFO - 2020-07-21 13:35:41 --> Router Class Initialized
+INFO - 2020-07-21 13:35:41 --> Output Class Initialized
+INFO - 2020-07-21 13:35:41 --> Security Class Initialized
+DEBUG - 2020-07-21 13:35:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-21 13:35:41 --> Input Class Initialized
+INFO - 2020-07-21 13:35:41 --> Language Class Initialized
+INFO - 2020-07-21 13:35:41 --> Language Class Initialized
+INFO - 2020-07-21 13:35:41 --> Config Class Initialized
+INFO - 2020-07-21 13:35:41 --> Loader Class Initialized
+INFO - 2020-07-21 13:35:41 --> Helper loaded: form_helper
+INFO - 2020-07-21 13:35:41 --> Helper loaded: url_helper
+INFO - 2020-07-21 13:35:41 --> Helper loaded: html_helper
+INFO - 2020-07-21 13:35:41 --> Database Driver Class Initialized
+DEBUG - 2020-07-21 13:35:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2020-07-21 13:35:41 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-21 13:35:41 --> Controller Class Initialized
+DEBUG - 2020-07-21 13:35:41 --> Home MX_Controller Initialized
+DEBUG - 2020-07-21 13:35:41 --> Home MX_Controller Initialized
+INFO - 2020-07-21 13:35:41 --> Helper loaded: download_helper
+INFO - 2020-07-21 13:35:41 --> Helper loaded: text_helper
+INFO - 2020-07-21 13:35:41 --> Model Class Initialized
+DEBUG - 2020-07-21 13:35:41 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/models/Mdl_home.php
+INFO - 2020-07-21 13:35:41 --> Model Class Initialized
+DEBUG - 2020-07-21 13:35:41 --> File loaded: /home/diiola5/dsms.diiolab.com/application/controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2020-07-21 13:35:41 --> Admin MX_Controller Initialized
+INFO - 2020-07-21 13:35:41 --> Helper loaded: date_helper
+DEBUG - 2020-07-21 13:35:41 --> File loaded: /home/diiola5/dsms.diiolab.com/application/controllers/../modules/Users/controllers/Users.php
+DEBUG - 2020-07-21 13:35:41 --> users MX_Controller Initialized
+INFO - 2020-07-21 13:35:41 --> Helper loaded: language_helper
+INFO - 2020-07-21 13:35:41 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2020-07-21 13:35:41 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2020-07-21 13:35:41 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/homeSearch.php
+DEBUG - 2020-07-21 13:35:41 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/bfooter.php
+DEBUG - 2020-07-21 13:35:41 --> File loaded: /home/diiola5/dsms.diiolab.com/application/modules/Home/views/index.php
+INFO - 2020-07-21 13:35:41 --> Final output sent to browser
+DEBUG - 2020-07-21 13:35:41 --> Total execution time: 0.2632

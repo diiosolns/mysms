@@ -1,0 +1,1 @@
+<h2 style="color: gray">Sorry! This feature is not available for you. Please send more SMS to get full access. Thank you !</h2>
