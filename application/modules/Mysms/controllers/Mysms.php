@@ -53,6 +53,91 @@ function sendSMS() {
 	$user =  $this->mysms->get_where_custom1('sms_user', 'id', $this->session->userdata('user_id'));
 	$this->session->set_userdata('user_bundle', $user->row()->bundle);
 	$this->session->set_userdata('user_credit', $user->row()->credit);
+	//Get gatetails
+	$gateway = $this->mysms->get_where_custom1('sms_gateway', 'company', "NEXT SMS");
+	$url = $gateway->row()->base_url.'/test/text/single';
+	$login = $gateway->row()->api_key;
+	//end Get gatetails
+
+	//count num sms
+	$nmsms = ceil(strlen($sms) / 153);
+	
+	//get recipients list
+	if ($groupname == "all") {
+		$phone_res = $this->Mdl_mysms->get_where_custom1('sms_recipient', 'userid', $this->session->userdata('user_id'));
+	} else {
+		$phone_res = $this->Mdl_mysms->get_where_custom2('sms_recipient', 'groupname', $groupname, 'userid', $this->session->userdata('user_id'));
+	}
+	$to = '';
+	foreach ($phone_res->result() as $res){ $to = $to.'"'.$res->phone.'",';}
+	$to = '['.trim($to,',').']';
+
+	$smsBundle = $user->row()->bundle;
+	$smsCredit = $user->row()->credit;
+	if ($smsBundle > 0) {
+		$unitCost = $smsCredit/ $smsBundle;
+	} else {$unitCost = 0; }
+
+	if (!$senderBtn == "") {
+		if ((($phone_res->num_rows()*$nmsms) < $smsBundle)) {
+			# code...
+		        $senderid = $senderid;
+		        $message = $sms;
+				//count num sms
+				$nmsms = ceil(strlen($message) / 153);
+		        //send sms
+		        $res = "";
+		        //$res = $this->smsSender($senderid, $to, $message, $login, $url);
+		        //end send sms
+		        $sdata['sender'] = $senderid;
+		        $sdata['recipient'] = $to;
+		        $sdata['sms'] = $message;
+		        $sdata['numsms'] = $nmsms;
+		        $sdata['response'] = "OK";
+		        $sdata['fullResponse'] = $res;
+		        $sdata['userid'] = $userid;
+		        $sdata['udate'] = mdate('%d/%m/%Y');
+		        $this->_insert_tb('sms_logs', $sdata);
+
+			//$data['msg']="An SMS has been sent to all recipients (".$phone_res->num_rows().") successifully !";
+			$data['msg']='<div class="alert alert-info alert-dismissible"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><h4><i class="icon fa fa-info-circle"></i> Done!</h4> An SMS has been sent to all recipients ('.$phone_res->num_rows().') successifully ! </div>';
+			$data['color']="blue";
+			$smsRemained = $smsBundle - ($phone_res->num_rows()*$nmsms);
+			$creditRemained = $smsRemained*$unitCost;
+			$this->session->set_userdata('user_bundle', $smsRemained);
+			$this->session->set_userdata('user_credit', $creditRemained);
+			//update user table
+			$udata['bundle'] = $smsRemained;
+			$udata['credit'] = $creditRemained;
+			$this->mysms->_update_tb('sms_user', $userid, $udata);
+		} else {
+			$data['msg']="You do not have enough balance to send this SMS .";
+			$data['color']="red";
+		}
+
+	} else {
+		$data['msg']="";
+		$data['color']="";
+	}
+
+	$data['loginErr']="";
+	$data['middle_m']="Mysms";
+	$data['middle_f']="smsSenderForm";
+	if ($this->session->userdata('logged_in')) {
+		if ($this->session->userdata('user_role') == "admin") {  $this->load->view('Mysms/index_a',$data);   } else if ($this->session->userdata('user_role') == "admin2") {    $this->load->view('Mysms/index_a2',$data);    } else if ($this->session->userdata('user_role') == "Normal") {    $this->load->view('Mysms/index',$data);    } else {    $this->load->view('Mysms/index',$data);    }
+	} else {$this->load->view('Home/login',$data);}
+}
+
+function sendSMS_OLD() {
+	$senderBtn = $this->input->post('senderBtn', true);
+	$groupname = $this->input->post('groupname', true);
+	$userid = $this->session->userdata('user_id');
+	$senderid = $this->input->post('senderid', true);
+	$sms = $this->input->post('sms', true);
+	$include_name = $this->input->post('include_name', true);
+	$user =  $this->mysms->get_where_custom1('sms_user', 'id', $this->session->userdata('user_id'));
+	$this->session->set_userdata('user_bundle', $user->row()->bundle);
+	$this->session->set_userdata('user_credit', $user->row()->credit);
 	 
 	//count num sms
 	$nmsms = ceil(strlen($sms) / 153);
@@ -166,6 +251,67 @@ function sendSMS() {
 		if ($this->session->userdata('user_role') == "admin") {  $this->load->view('Mysms/index_a',$data);   } else if ($this->session->userdata('user_role') == "admin2") {    $this->load->view('Mysms/index_a2',$data);    } else if ($this->session->userdata('user_role') == "Normal") {    $this->load->view('Mysms/index',$data);    } else {    $this->load->view('Mysms/index',$data);    }
 	} else {$this->load->view('Home/login',$data);}
 }
+
+
+function senderIDRegistrationForm(){
+	$data['loginErr']="";
+	$data['msg']="";
+	$data['color']="";
+	$data['middle_m']="Mysms";
+	$data['middle_f']="senderIDRegistrationForm";
+	if ($this->session->userdata('logged_in')) {
+		if ($this->session->userdata('user_role') == "admin") {  $this->load->view('Mysms/index_a',$data);   } else if ($this->session->userdata('user_role') == "admin2") {    $this->load->view('Mysms/index_a2',$data);    } else if ($this->session->userdata('user_role') == "Normal") {    $this->load->view('Mysms/index',$data);    } else {    $this->load->view('Mysms/index',$data);    }
+	} else {$this->load->view('Home/login',$data);}
+}
+
+function senderIDRegSubmit(){
+	$userid = $this->session->userdata('user_id');
+	$sdata['userid'] = $userid;
+	$sdata['senderid'] = $this->input->post('senderid', true);
+	$sdata['status'] = "Pending";
+	$sdata['notes'] = "";
+	$sdata['requester'] = $this->input->post('requester', true);
+	$sdata['name'] = $this->input->post('name', true);
+	$sdata['location'] = $this->input->post('location', true);
+	$sdata['title'] = $this->input->post('title', true);
+	$sdata['address'] = $this->input->post('address', true);
+	//$sdata['logo'] = $this->input->post('logo', true);
+	$sdata['owner'] = $this->input->post('owner', true);
+	$sdata['url'] = $this->input->post('url', true);
+	$sdata['sms'] = $this->input->post('sms', true);
+	$rdata['date'] = mdate('%Y-%m-%d');
+	$rdata['udate'] = mdate('%Y-%m-%d');
+	//upload logo
+		$new_name = $sdata['senderid'];
+		$config['upload_path']           = './uploads/senderid/logo/';
+		$config['allowed_types']        = 'gif|jpg|png|PNG|jpeg';
+		$config['max_size']             = 6048;
+		$config['max_width']            = 6464;
+		$config['max_height']           = 6464;
+		$config['file_name'] = $new_name;
+		$field_name = "logo";
+		$this->load->library('upload',$config);
+		$this->upload->do_upload($field_name);
+		$data = array('upload_data' => $this->upload->data());
+		$logo_name = $data['upload_data']['file_name'];
+		$data['error'] = $this->upload->display_errors();
+		if (!($data['error'] == "")) {
+			$sdata['logo'] = "def.png";
+		} else {$sdata['logo'] = $logo_name; }		
+	//end logo upload
+	//insert into DB
+	$this->_insert_tb('sms_senderid', $sdata);
+
+	$data['loginErr']="";
+	$data['msg']='<div class="alert alert-info alert-dismissible"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><h4><i class="icon fa fa-info-circle"></i> Done!</h4> Sender ID Registration request has been submitted. Waiting for approval. </div>';
+	$data['color']="blue";
+	$data['middle_m']="Mysms";
+	$data['middle_f']="senderIDRegistrationForm";
+	if ($this->session->userdata('logged_in')) {
+		if ($this->session->userdata('user_role') == "admin") {  $this->load->view('Mysms/index_a',$data);   } else if ($this->session->userdata('user_role') == "admin2") {    $this->load->view('Mysms/index_a2',$data);    } else if ($this->session->userdata('user_role') == "Normal") {    $this->load->view('Mysms/index',$data);    } else {    $this->load->view('Mysms/index',$data);    }
+	} else {$this->load->view('Home/login',$data);}
+}
+
 
 function addRecipient(){
 	$data['loginErr']="";
@@ -920,7 +1066,30 @@ $objWriter->save('php://output');
 /*=========================== END USER MANAGEMENT (ADMIN) ================*/
 
 /*==================== SMS SENDER================*/
-public function smsSender($senderid, $to, $message, $login){
+public function smsSender($senderid, $to, $message, $login, $url){
+    $send='{  
+      "from":"'.$senderid.'",
+      "to":'.$to.',
+      "text":"'.$message.'"
+    }';
+
+    $sms = curl_init($url);
+    curl_setopt( $sms, CURLOPT_POST, 1);
+    curl_setopt( $sms, CURLOPT_POSTFIELDS, $send);
+    curl_setopt( $sms, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt( $sms, CURLOPT_HTTPHEADER,array (
+    'Authorization: '.$login.'',
+    'Content-Type: application/json',
+    'accept: application/json',
+    ));
+    curl_setopt( $sms, CURLOPT_RETURNTRANSFER, 1);
+
+    $response = curl_exec($sms);
+    return $response;
+    //echo $response;
+}
+
+public function smsSender_OLD($senderid, $to, $message, $login){
  //MakaziC:makazi@123 (TWFrYXppQzptYWthemlAMTIz)
     //Malikita16:malikita16@123 (TWFsaWtpdGExNjptYWxpa2l0YTE2QDEyMw==)
   # code...
@@ -1057,6 +1226,12 @@ return $query;
 function get_col_where2($tb, $col, $col1, $val1) {
 $this->load->model('Mdl_mysms');
 $query = $this->Mdl_mysms->get_col_where2($tb, $col, $col1, $val1);
+return $query;
+}
+
+function get_col_where3($tb, $col, $col1, $val1, $col2, $val2) {
+$this->load->model('Mdl_mysms');
+$query = $this->Mdl_mysms->get_col_where3($tb, $col, $col1, $val1, $col2, $val2);
 return $query;
 }
 

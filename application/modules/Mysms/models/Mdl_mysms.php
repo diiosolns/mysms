@@ -127,6 +127,39 @@ $query=$this->db->get($tb);
 return $query;
 }
 
+function get_col_where2_array($tb, $col, $col1, $val1){
+$table = $this->get_table($tb);
+$this->db->distinct();
+$this->db->select($col);
+$array = array($col1 => $val1);
+$this->db->where($array);
+$query=$this->db->get($tb);
+//$result = $query->result_array();
+return $query;
+}
+
+function get_col_where3_array($tb, $col, $col1, $val1, $col2, $val2){
+$table = $this->get_table($tb);
+$this->db->distinct();
+$this->db->select($col);
+$array = array($col1 => $val1, $col2 => $val2);
+$this->db->where($array);
+$query=$this->db->get($tb);
+//$result = $query->result_array();
+return $query;
+}
+
+function get_col_where3($tb, $col, $col1, $val1, $col2, $val2){
+$table = $this->get_table($tb);
+$this->db->distinct();
+$this->db->select($col);
+$array = array($col1 => $val1, $col2 => $val2);
+$this->db->where($array);
+$query=$this->db->get($tb);
+//$result = $query->result_array();
+return $query;
+}
+
 function get_where_custom1($tb, $col1, $value1){
 $table = $this->get_table($tb);
 $array = array($col1 => $value1);

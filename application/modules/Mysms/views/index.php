@@ -16,6 +16,9 @@
         <link href="<?php echo base_url('assets/css/AdminLTE.css');?>" rel="stylesheet" type="text/css" />
         <!-- Sub_menu -->
         <link href="<?php echo base_url('assets/css/diiocss/submenu.css');?>" rel="stylesheet" type="text/css" />
+        <!-- jQuery 2.0.2 -->
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script> 
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
         
         <style type="text/css">
           .sitecolor1 {
@@ -33,6 +36,9 @@
           .sitecolor2bg {
             background-color: #FD037E;
           } 
+          .downapk{
+            /*background-color: #333333 !important;*/
+          }
       </style>
 
 
@@ -59,6 +65,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
+                <a href="<?php echo base_url('Mysms/smsSenderForm');?>" class="btn btn-md btn-info" style="margin-top: 10px; margin-left: 20px;"><b>Send SMS </b>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope"></i></a>
                 <div class="navbar-right">
                     <ul class="nav navbar-nav">
 
@@ -344,6 +351,12 @@
                                
                             </ul>
                         </li>
+
+                        <li><a href="<?php echo base_url('Mysms/smsSenderForm');?>"><i class="fa fa-comments" ></i> Send SMS </a></li>  
+                        <li><a href="<?php echo base_url('Mysms/addRecipient');?>"><i class="fa fa-user" ></i> Add New Contacts </a></li> 
+                        <li><a href="<?php echo base_url('Mysms/manageGroups');?>"><i class="fa fa-users" ></i> Manage Contacts </a></li> 
+                        <li><a href="<?php echo base_url('Mysms/senderIDRegistrationForm');?>"><i class="fa fa-file" ></i> Sender ID Registration </a></li> 
+
                         <!-- <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-cogs"></i>
@@ -360,7 +373,7 @@
                         <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-comments"></i>
-                                <span>SMS</span>
+                                <span>Manage SMS</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
@@ -369,17 +382,17 @@
                                 <li><a href="<?php echo base_url('Mysms/smsLogs')?>"><i class="fa fa-angle-double-right"></i> SMS logs</a></li>
                             </ul>
                         </li>
-                        <li class="treeview">
+                        <!-- <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-users"></i>
                                 <span>Recipients</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="<?php echo base_url('Mysms/addRecipient')?>"><i class="fa fa-angle-double-right"></i> Add Recipient</a></li>
-                                <li><a href="<?php echo base_url('Mysms/manageGroups')?>"><i class="fa fa-angle-double-right"></i> Manage Recipients</a></li>
+                                <li><a href="<?php //echo base_url('Mysms/addRecipient')?>"><i class="fa fa-angle-double-right"></i> Add Recipient</a></li>
+                                <li><a href="<?php //echo base_url('Mysms/manageGroups')?>"><i class="fa fa-angle-double-right"></i> Manage Recipients</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                        <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-shopping-cart"></i>
@@ -393,17 +406,17 @@
                                 <li><a href="<?php echo base_url('Mysms/smsOffers')?>"><i class="fa fa-angle-double-right"></i> Offers</a></li>
                             </ul>
                         </li>
-                       <li class="treeview">
+                       <!-- <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-user"></i>
                                 <span>Account</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="<?php echo base_url('Mysms/myAccount')?>"><i class="fa fa-angle-double-right"></i> My account</a></li>
-                                <li><a href="<?php echo base_url('Mysms/myAccount')?>"><i class="fa fa-angle-double-right"></i> Change Password</a></li>
+                                <li><a href="<?php //echo base_url('Mysms/myAccount')?>"><i class="fa fa-angle-double-right"></i> My account</a></li>
+                                <li><a href="<?php //echo base_url('Mysms/myAccount')?>"><i class="fa fa-angle-double-right"></i> Change Password</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
                         <li><a href="<?php echo base_url('Home/logout');?>"><i class="fa fa-sign-out" "></i> Logout </a></li>  
 
@@ -446,7 +459,7 @@
 
 
         <!-- jQuery 2.0.2 -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <!-- <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>  -->
         <!-- Bootstrap -->
         <script src="<?php echo base_url('assets/js/bootstrap.min.js');?>" type="text/javascript"></script>
         <!-- AdminLTE App -->

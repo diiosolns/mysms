@@ -197,6 +197,12 @@
     overflow: hidden;
     color: #fff;
 }
+.dashcolorbg{
+    background-color: #fff;
+    border: 1px solid #10C4EF;
+    color: gray !important;
+    border-radius: 15px;
+}
 </style>
 
 
@@ -204,527 +210,242 @@
     $today = mdate('%d/%m/%Y');
     $thismonth = mdate('01/%m/%Y');
     $smstoday = modules::load('Mysms')->get_where_custom2('sms_logs', 'userid', $this->session->userdata('user_id'), 'udate', $today)->num_rows();
+    $sentsmsRes = modules::load('Mysms')->get_where_custom1('sms_logs', 'userid', $this->session->userdata('user_id'));
+    $scheduledsmsRes = modules::load('Mysms')->get_where_custom2('sms_smstxt', 'userid', $this->session->userdata('user_id'), 'status', "Saved");
+    $grpRes = modules::load('Mysms')->get_col_where2('sms_recipient', 'groupname', 'userid', $this->session->userdata('user_id'));
+    $senderidRes = modules::load('Mysms')->get_col_where3('sms_senderid', 'senderid', 'status', "Approved", 'userid', $this->session->userdata('user_id'));
 ?>
 
-<div style="margin-top: 0px; padding-top: 0px;" class="box box-success">
-    <div class="box-header">
-        <h3 class="box-title"><i class="fa fa-dashboard"></i>&nbsp;&nbsp;<b>DASHBOARD</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small></small> <!-- <span><b>(<?php //echo mdate('%d/%m/%Y %H:%i:%s');?>)</b></span> --></h3>
-        <span style="font-size: 22px;" class="label label-danger pull-right"><b>SMS = <?php echo $this->session->userdata('user_bundle');?></b> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="row" >
+    <div class="col-lg-3 col-sm-12">
+        <div class="circle-tile">
+            <a href="<?php echo base_url('Mysms/smsSenderForm');?>">
+                <div class="circle-tile-heading sitecolor1bg">
+                   <i class="fa fa-comments fa-fw fa-3x"></i>
+                </div>
+            </a>
+            <div class="circle-tile-content dashcolorbg" >
+                <div class="circle-tile-description text-faded">
+                    <b style="color: gray;">Sent SMS</b>
+                </div>
+                <div class="circle-tile-number text-faded" style="color: gray;">
+                    <?php echo number_format($sentsmsRes->num_rows(),0);?>
+                    <span id="sparklineA"> </span>
+                    <a href="<?php echo base_url('Mysms/smsLogs');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">View</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="col-lg-3 col-sm-12">
+        <div class="circle-tile">
+            <a href="<?php echo base_url('Mysms/manageGroups');?>">
+                <div class="circle-tile-heading sitecolor1bg">
+                   <i class="fa fa-users fa-fw fa-3x"></i>
+                </div>
+            </a>
+            <div class="circle-tile-content dashcolorbg" >
+                <div class="circle-tile-description text-faded">
+                    <b style="color: gray;">Contacts</b>
+                </div>
+                <div class="circle-tile-number text-faded" style="color: gray;">
+                    <?php echo number_format(modules::load('Mysms')->get_where_custom1('sms_recipient', 'userid', $this->session->userdata('user_id'))->num_rows(),0); ?>
+                    <span id="sparklineA"> </span>
+                    <a href="<?php echo base_url('Mysms/manageGroups');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">View</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="box-body hidden-sm hidden-xs ">
-
-        <div class="container-2">
-
-           <!--  ============ LARGE DEVICES ===========  -->
-              <div id="page-wrapper">
-
-              <div class="rov" style="padding: 0 0 0 0;">
-                  <div class="col-md-6 " style="padding: 0 5px 0 0;">
-                      <div class="well well-sm">
-                          <b style="font-size: 20px;">SMS SUMMARY</b>
-                          <div class="row" >
-                            <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/smsSenderForm');?>">
-                                        <div class="circle-tile-heading sitecolor2bg">
-                                            <i class="fa fa-comments fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg" style="color: #fff;">
-                                        <div class="circle-tile-description text-faded">
-                                            <b style="color: #fff;">SMS TODAY</b>
-                                        </div>
-                                        <div class="circle-tile-number text-faded">
-                                            <?php echo $smstoday;?>
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                             <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/smsLogs');?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-comments fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                           <b style="color: #fff;"> SMS THIS MONTH</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                             <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/manageGroups');?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-users fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                            <b style="color: #fff;"> ALL RECIPIENTS</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            <?php echo modules::load('Mysms')->get_where_custom1('sms_recipient', 'userid', $this->session->userdata('user_id'))->num_rows(); ?>
-                                            <span id="sparklineA"> People</span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                           <!--  <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Outage')?>">
-                                        <div class="circle-tile-heading blue">
-                                            <i class="fa fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content blue">
-                                        <div class="circle-tile-description text-faded">
-                                           Closed Critical Outages
-                                        </div>
-                                        <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-
-                        </div>
-
-                      </div>
-                  </div>
-
-                  <div class="col-md-6" style="padding: 0 0 0 5px;">
-                      <div class="well well-sm">
-                          <b style="font-size: 20px;">ACCOUNT DETAILS</b>
-
-                          <div class="row">
-                              <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/buyCredit');?>">
-                                        <div class="circle-tile-heading sitecolor2bg">
-                                            <i class="fa  fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                            <b style="color: #fff;"> SMS BUNDLE</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            <?php echo $this->session->userdata('user_bundle');?>
-                                            <span id="sparklineA"> SMS</span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                           <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/buyCredit');?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-shopping-cart fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                           <b style="color: #fff;"> SMS CREDIT</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            $<?php echo $this->session->userdata('user_credit');?>
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                       <!--  <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-sm-12 col-centered">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/smsOffers')?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                           <b style="color: #fff;"> OFFERS</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> SMS</span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-sm-12 hidden">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('#')?>">
-                                        <div class="circle-tile-heading dark-blue">
-                                            <i class="fa fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content dark-blue">
-                                        <div class="circle-tile-description text-faded">
-                                            Rejected Solutions
-                                        </div>
-                                        <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                          </div>
-
-                      </div>
-                  </div>
-
-              </div>
-
-                                        
-               <div class="row" >
-                   <!--  <div class="col-lg-3 col-sm-6">
-                        <div class="circle-tile">
-                            <a href="#">
-                                <div class="circle-tile-heading dark-blue">
-                                    <i class="fa fa-clipboard fa-fw fa-3x"></i>
-                                </div>
-                            </a>
-                            <div class="circle-tile-content dark-blue">
-                                <div class="circle-tile-description text-faded">
-                                    Pending
-                                </div>
-                                <div class="circle-tile-number text-faded">
-                                    00
-                                    <span id="sparklineA"></span>
-                                </div>
-                                <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                   <!--  <div class="col-lg-3 col-sm-6">
-                        <div class="circle-tile">
-                            <a href="#">
-                                <div class="circle-tile-heading green">
-                                    <i class="fa fa-laptop fa-fw fa-3x"></i>
-                                </div>
-                            </a>
-                            <div class="circle-tile-content green">
-                                <div class="circle-tile-description text-faded">
-                                    Accepted
-                                </div>
-                                <div class="circle-tile-number text-faded">
-                                    20
-                                </div>
-                                <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                   <!--  <div class="col-lg-3 col-sm-6">
-                        <div class="circle-tile">
-                            <a href="#">
-                                <div class="circle-tile-heading orange">
-                                    <i class="fa fa-bell fa-fw fa-3x"></i>
-                                </div>
-                            </a>
-                            <div class="circle-tile-content orange">
-                                <div class="circle-tile-description text-faded">
-                                   <b style="font-size: 20px;">Rejected => 20</b>
-                                </div>
-                              <div class="circle-tile-number text-faded">
-                                    20
-                                </div> 
-                                <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="col-lg-3 col-sm-6">
-                        <div class="circle-tile">
-                            <a href="#">
-                                <div class="circle-tile-heading blue">
-                                    <i class="fa fa-tasks fa-fw fa-3x"></i>
-                                </div>
-                            </a>
-                            <div class="circle-tile-content blue">
-                                <div class="circle-tile-description text-faded">
-                                    Approved 
-                                </div>
-                                <div class="circle-tile-number text-faded">
-                                    10
-                                    <span id="sparklineB"></span>
-                                </div>
-                                <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="col-lg-3 col-sm-6">
-                        <div class="circle-tile">
-                            <a href="#">
-                                <div class="circle-tile-heading red">
-                                    <i class="fa fa-trash-o fa-fw fa-3x"></i>
-                                </div>
-                            </a>
-                            <div class="circle-tile-content red">
-                                <div class="circle-tile-description text-faded">
-                                    Rejected
-                                </div>
-                                <div class="circle-tile-number text-faded">
-                                    24
-                                    <span id="sparklineC"></span>
-                                </div>
-                                <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="col-lg-3 col-sm-6">
-                        <div class="circle-tile">
-                            <a href="#">
-                                <div class="circle-tile-heading purple">
-                                    <i class="fa fa-arrows-alt fa-fw fa-3x"></i>
-                                </div>
-                            </a>
-                            <div class="circle-tile-content purple">
-                                <div class="circle-tile-description text-faded">
-                                    All Requests
-                                </div>
-                                <div class="circle-tile-number text-faded">
-                                    96
-                                    <span id="sparklineD"></span>
-                                </div>
-                                <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
-
-                </div> 
-               
-          </div><!-- page-wrapper END-->
-
-          <!-- ========================= END LARGE DEVICE ======================== -->
-
-         </div><!-- container-1 END-->       
+    <div class="col-lg-3 col-sm-12">
+        <div class="circle-tile">
+            <a href="<?php echo base_url('Mysms/buyCredit');?>">
+                <div class="circle-tile-heading sitecolor1bg">
+                   <i class="fa fa-shopping-cart fa-fw fa-3x"></i>
+                </div>
+            </a>
+            <div class="circle-tile-content dashcolorbg" >
+                <div class="circle-tile-description text-faded">
+                    <b style="color: gray;">Balance <small>(SMS)</small></b>
+                </div>
+                <div class="circle-tile-number text-faded" style="color: gray;">
+                    <?php echo number_format($this->session->userdata('user_bundle'),0);?>
+                    <span id="sparklineA"></span>
+                    <a href="<?php echo base_url('Mysms/buyCredit');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">Recharge</a>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
-<!--  ============ SMALL  DEVICES ===========  -->
-              <div class="hidden-md hidden-lg hidden-xl" style="padding:   0 0 0 0; margin: 0 0 0 0;">
-
-
-                            <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/smsSenderForm');?>">
-                                        <div class="circle-tile-heading sitecolor2bg">
-                                            <i class="fa fa-comments fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg" style="color: #fff;">
-                                        <div class="circle-tile-description text-faded">
-                                            <b style="color: #fff;">SMS TODAY</b>
-                                        </div>
-                                        <div class="circle-tile-number text-faded">
-                                            <?php echo $smstoday;?>
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                             <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/smsLogs');?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-comments fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                           <b style="color: #fff;"> SMS THIS MONTH</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                             <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/manageRecipient');?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-users fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                            <b style="color: #fff;"> ALL RECIPIENTS</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            <?php echo modules::load('Mysms')->get_where_custom1('sms_recipient', 'userid', $this->session->userdata('user_id'))->num_rows(); ?>
-                                            <span id="sparklineA"> People</span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                           <!--  <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Outage')?>">
-                                        <div class="circle-tile-heading blue">
-                                            <i class="fa fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content blue">
-                                        <div class="circle-tile-description text-faded">
-                                           Closed Critical Outages
-                                        </div>
-                                        <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-
-
-
-
-                              <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/buyCredit');?>">
-                                        <div class="circle-tile-heading sitecolor2bg">
-                                            <i class="fa  fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                            <b style="color: #fff;"> SMS BUNDLE</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            <?php echo $this->session->userdata('user_bundle');?>
-                                            <span id="sparklineA"> SMS</span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                           <div class="col-lg-6 col-sm-12">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/buyCredit');?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-shopping-cart fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                           <b style="color: #fff;"> SMS CREDIT</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            $<?php echo $this->session->userdata('user_credit');?>
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                       <!--  <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-sm-12 col-centered">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('Mysms/smsOffers')?>">
-                                        <div class="circle-tile-heading sitecolor1bg">
-                                            <i class="fa fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content sitecolor1bg">
-                                        <div class="circle-tile-description text-faded">
-                                           <b style="color: #fff;"> OFFERS</b>
-                                        </div>
-                                         <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> SMS</span>
-                                        </div>
-                                        <!-- <a href="#" class="circle-tile-footer">Continue <i class="fa fa-chevron-circle-right"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-sm-12 hidden">
-                                <div class="circle-tile">
-                                    <a href="<?php echo base_url('#')?>">
-                                        <div class="circle-tile-heading dark-blue">
-                                            <i class="fa fa-tasks fa-fw fa-3x"></i>
-                                        </div>
-                                    </a>
-                                    <div class="circle-tile-content dark-blue">
-                                        <div class="circle-tile-description text-faded">
-                                            Rejected Solutions
-                                        </div>
-                                        <div class="circle-tile-number text-faded">
-                                            00
-                                            <span id="sparklineA"> </span>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
-                            </div>
-
-          </div><!-- page-wrapper END-->
-
-          <!-- ========================= END SMALL DEVICE ======================== -->
-
-
-
-
-
-
+    <div class="col-lg-3 col-sm-12" style="text-align: center;">
+        <div style="padding-bottom: 20px;">
+            <b style="font-size: 28px;">Tell Your Customers</b><br>
+        <span style="font-size: 18px;">Create one sms and Send to Many.</span>
+        </div>
+        <a style="border-radius: 15px;" href="<?php echo base_url('/uploads/apk/MySMS.apk');?>" class="btn btn-warning btn-lg sitein downapk">
+            <b style="font-size: 22px;"><i class="fa fa-download"></i> Download APK&nbsp;&nbsp;&nbsp;&nbsp;</b><br>
+            <small>For android devices</small>
+        </a>
+    </div>
 
 </div>
 
 
 
+<div class="row" style="margin-top: 20px;">
+    <div class="col-md-9">
+        <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title">SMS Traffic</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              
+              
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+            </div>
+            <!-- /.box-footer -->
+          </div>
+    </div>
+
+
+    <div class="col-md-3">
+        <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Account Information</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+                <tbody><tr>
+                  <th style="width: 10px">1</th>
+                  <th>Sent SMS</th>
+                  <th style="width: 40px"><span class="badge bg-light-blue"><?php echo number_format($sentsmsRes->num_rows(),0) ?></span></th>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Contacts</td>
+                  <td><span class="badge bg-light-blue"><?php echo number_format(modules::load('Mysms')->get_where_custom1('sms_recipient', 'userid', $this->session->userdata('user_id'))->num_rows(),0); ?></span></td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Groups</td>
+                  <td><span class="badge bg-light-blue"><?php echo number_format($grpRes->num_rows(),0) ?></span></td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td>Sender IDs</td>
+                  <td><span class="badge bg-light-blue"><?php echo number_format($senderidRes->num_rows(),0) ?></span></td>
+                </tr>
+                <tr>
+                  <td>5.</td>
+                  <td>Balance</td>
+                  <td><span class="badge bg-light-blue"><?php echo number_format($this->session->userdata('user_bundle'),0);?></span></td>
+                </tr>
+                <tr>
+                  <td>6.</td>
+                  <td>Scheduled SMS</td>
+                  <td><span class="badge bg-light-blue"><?php echo number_format($scheduledsmsRes->num_rows(),0);?></span></td>
+                </tr>
+              </tbody></table>
+            </div>
+            <!-- /.box-body -->
+        </div>
+    </div>
+</div>
 
 
 
-
-
-
- 
-
-
-
-
+<div class="row">
+    <div class="col-md-3">
+        <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"><b>Custom Sender ID</b></h3>
+            <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+            </button>
+            </div>
+            <!-- /.box-tools -->
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body" style="text-align: center; font-size: 18px;">
+            Get for free a Sender ID to represent you. it will appear on subscriber’s mobile device screen the moment the message is delivered.
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer" style="text-align: center; font-size: 18px;">
+            <a href="<?php echo base_url('Mysms/senderIDRegistrationForm');?>" class="btn btn-md btn-info">Sender ID Registration</a>
+        </div>
+        </div>
+        <!-- /.box -->
+    </div>
+    <div class="col-md-3">
+        <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"><b>Send Bulk SMS</b></h3>
+            <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+            </button>
+            </div>
+            <!-- /.box-tools -->
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body" style="text-align: center; font-size: 18px;">
+            Our online SMS marketing platform provides businesses, community groups, and organisations with a bulk SMS solution!
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer" style="text-align: center; font-size: 18px;">
+            <a href="<?php echo base_url('Mysms/smsSenderForm');?>" class="btn btn-md btn-info">Start Sending SMS</a>
+        </div>
+        </div>
+        <!-- /.box -->
+    </div>
+    <div class="col-md-3">
+        <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"><b>SMS in Low Prices</b></h3>
+            <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+            </button>
+            </div>
+            <!-- /.box-tools -->
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body" style="text-align: center; font-size: 18px;">
+            Get sms package for your business in low prices.<br> Continue to see our pricing list. You can contact us for more information.
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer" style="text-align: center; font-size: 18px;">
+            <a href="<?php echo base_url('Mysms/buyCredit');?>" class="btn btn-md btn-info">Recharge SMS</a>
+        </div>
+        </div>
+        <!-- /.box -->
+    </div>
+    <div class="col-md-3">
+        <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title"><b>Add Contacts</b></h3>
+            <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+            </button>
+            </div>
+            <!-- /.box-tools -->
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body" style="text-align: center; font-size: 18px;">
+            Organise your contacts into groups. You can upload all your conts at once using excel file. Use attached excel template to prepare your contacts.
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer" style="text-align: center; font-size: 18px;">
+            <a href="<?php echo base_url('Mysms/addRecipient');?>" class="btn btn-md btn-info">Add New Contacts</a>
+        </div>
+        </div>
+        <!-- /.box -->
+    </div>
+</div>
 
 
 
