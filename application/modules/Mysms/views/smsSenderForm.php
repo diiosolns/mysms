@@ -21,17 +21,17 @@
                     <div class="row">
                         <div class="col-md-12">
                             <?php echo $msg;?>
-                            <?php if($grpRes->num_rows() == 0) { ?>
+                            <?php if($senderidRes->num_rows() == 0) { ?>
                             <div class="alert alert-danger alert-dismissible">
                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                                <h4><i class="icon fa fa-info-circle"></i> Warning!</h4> <a href="<?php echo base_url('Mysms/senderIDRegistrationForm');?>" class="btn btn-info btn-md pull-right">Sender ID Registration</a>
-                                You will not be able to send SMS because you do not have a Sender ID yet. Start by requesting Sender ID registration. 
+                                <h4><i class="icon fa fa-info-circle"></i> Sender ID Unavailable!</h4> <a href="<?php echo base_url('Mysms/senderIDRegistrationForm');?>" class="btn btn-info btn-md pull-right">Sender ID Registration</a>
+                                You will not be able to send SMS because you do not have any registered Sender ID yet. Start by requesting Sender ID registration. 
                             </div>
                             <?php } ?>
                             <?php if($allRecipients == 0) { ?>
                             <div class="alert alert-danger alert-dismissible">
                                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                                <h4><i class="icon fa fa-info-circle"></i> Warning!</h4>  <a href="<?php echo base_url('Mysms/addRecipient');?>" class="btn btn-info btn-md pull-right">Add New Contacts</a>
+                                <h4><i class="icon fa fa-info-circle"></i> No contacts!</h4>  <a href="<?php echo base_url('Mysms/addRecipient');?>" class="btn btn-info btn-md pull-right">Add New Contacts</a>
                                 You will not be able to send SMS because you do not have contacts yet. Start by adding new contacts. 
                             </div>
                             <?php } ?>

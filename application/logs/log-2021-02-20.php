@@ -14149,3 +14149,2033 @@ DEBUG - 2021-02-20 14:58:25 --> Session: "sess_save_path" is empty; using "sessi
 INFO - 2021-02-20 14:58:25 --> Session: Class initialized using 'files' driver.
 INFO - 2021-02-20 14:58:25 --> Controller Class Initialized
 ERROR - 2021-02-20 14:58:25 --> 404 Page Not Found: /index
+INFO - 2021-02-20 16:43:55 --> Config Class Initialized
+INFO - 2021-02-20 16:43:55 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:43:55 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:43:55 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:43:55 --> URI Class Initialized
+INFO - 2021-02-20 16:43:55 --> Router Class Initialized
+INFO - 2021-02-20 16:43:55 --> Output Class Initialized
+INFO - 2021-02-20 16:43:55 --> Security Class Initialized
+DEBUG - 2021-02-20 16:43:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:43:55 --> Input Class Initialized
+INFO - 2021-02-20 16:43:55 --> Language Class Initialized
+INFO - 2021-02-20 16:43:55 --> Language Class Initialized
+INFO - 2021-02-20 16:43:55 --> Config Class Initialized
+INFO - 2021-02-20 16:43:55 --> Loader Class Initialized
+INFO - 2021-02-20 16:43:55 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:43:55 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:43:55 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:43:55 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:43:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:43:55 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:43:55 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:43:55 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:43:55 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:43:55 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:43:55 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:43:55 --> Model Class Initialized
+DEBUG - 2021-02-20 16:43:55 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:43:55 --> Model Class Initialized
+DEBUG - 2021-02-20 16:43:55 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:43:55 --> Admin MX_Controller Initialized
+INFO - 2021-02-20 16:43:55 --> Helper loaded: date_helper
+DEBUG - 2021-02-20 16:43:55 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:43:55 --> users MX_Controller Initialized
+INFO - 2021-02-20 16:43:55 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:43:55 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:43:55 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:43:55 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/views/mobile.php
+INFO - 2021-02-20 16:43:55 --> Final output sent to browser
+DEBUG - 2021-02-20 16:43:55 --> Total execution time: 0.1360
+INFO - 2021-02-20 16:43:57 --> Config Class Initialized
+INFO - 2021-02-20 16:43:57 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:43:57 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:43:57 --> URI Class Initialized
+INFO - 2021-02-20 16:43:57 --> Router Class Initialized
+INFO - 2021-02-20 16:43:57 --> Output Class Initialized
+INFO - 2021-02-20 16:43:57 --> Security Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:43:57 --> Input Class Initialized
+INFO - 2021-02-20 16:43:57 --> Language Class Initialized
+INFO - 2021-02-20 16:43:57 --> Language Class Initialized
+INFO - 2021-02-20 16:43:57 --> Config Class Initialized
+INFO - 2021-02-20 16:43:57 --> Loader Class Initialized
+INFO - 2021-02-20 16:43:57 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:43:57 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:43:57 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:43:57 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:43:57 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:43:57 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:43:57 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:43:57 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:43:57 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:43:57 --> Model Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:43:57 --> Model Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:43:57 --> Admin MX_Controller Initialized
+INFO - 2021-02-20 16:43:57 --> Helper loaded: date_helper
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:43:57 --> users MX_Controller Initialized
+INFO - 2021-02-20 16:43:57 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:43:57 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:43:57 --> Language file loaded: language/english/msg_lang.php
+INFO - 2021-02-20 16:43:57 --> Form Validation Class Initialized
+INFO - 2021-02-20 16:43:57 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2021-02-20 16:43:57 --> Config Class Initialized
+INFO - 2021-02-20 16:43:57 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:43:57 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:43:57 --> URI Class Initialized
+INFO - 2021-02-20 16:43:57 --> Router Class Initialized
+INFO - 2021-02-20 16:43:57 --> Output Class Initialized
+INFO - 2021-02-20 16:43:57 --> Security Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:43:57 --> Input Class Initialized
+INFO - 2021-02-20 16:43:57 --> Language Class Initialized
+INFO - 2021-02-20 16:43:57 --> Language Class Initialized
+INFO - 2021-02-20 16:43:57 --> Config Class Initialized
+INFO - 2021-02-20 16:43:57 --> Loader Class Initialized
+INFO - 2021-02-20 16:43:57 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:43:57 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:43:57 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:43:57 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:43:57 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:43:57 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:43:57 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:43:57 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:43:57 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:43:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:43:57 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:43:57 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:43:57 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:43:57 --> Model Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:43:57 --> Model Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:43:57 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:43:57 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:43:57 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:43:57 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:43:57 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:43:57 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:43:57 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:43:57 --> Model Class Initialized
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 16:43:57 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:43:57 --> Final output sent to browser
+DEBUG - 2021-02-20 16:43:57 --> Total execution time: 0.2197
+INFO - 2021-02-20 16:44:59 --> Config Class Initialized
+INFO - 2021-02-20 16:44:59 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:44:59 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:44:59 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:44:59 --> URI Class Initialized
+INFO - 2021-02-20 16:44:59 --> Router Class Initialized
+INFO - 2021-02-20 16:44:59 --> Output Class Initialized
+INFO - 2021-02-20 16:44:59 --> Security Class Initialized
+DEBUG - 2021-02-20 16:44:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:44:59 --> Input Class Initialized
+INFO - 2021-02-20 16:44:59 --> Language Class Initialized
+INFO - 2021-02-20 16:44:59 --> Language Class Initialized
+INFO - 2021-02-20 16:44:59 --> Config Class Initialized
+INFO - 2021-02-20 16:44:59 --> Loader Class Initialized
+INFO - 2021-02-20 16:44:59 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:44:59 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:44:59 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:44:59 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:44:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:44:59 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:44:59 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:44:59 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:44:59 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:44:59 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:44:59 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:44:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:44:59 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:44:59 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:44:59 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:44:59 --> Model Class Initialized
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:44:59 --> Model Class Initialized
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:44:59 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:44:59 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:44:59 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:44:59 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:44:59 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:44:59 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:44:59 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:44:59 --> Model Class Initialized
+ERROR - 2021-02-20 16:44:59 --> Severity: Notice --> Undefined property: stdClass::$id C:\xampp\htdocs\mysms\application\modules\Mysms\views\manageGroups.php 68
+ERROR - 2021-02-20 16:44:59 --> Severity: Notice --> Undefined property: stdClass::$id C:\xampp\htdocs\mysms\application\modules\Mysms\views\manageGroups.php 69
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/manageGroups.php
+DEBUG - 2021-02-20 16:44:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:44:59 --> Final output sent to browser
+DEBUG - 2021-02-20 16:44:59 --> Total execution time: 0.1819
+INFO - 2021-02-20 16:45:01 --> Config Class Initialized
+INFO - 2021-02-20 16:45:01 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:45:01 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:45:01 --> URI Class Initialized
+INFO - 2021-02-20 16:45:01 --> Router Class Initialized
+INFO - 2021-02-20 16:45:01 --> Output Class Initialized
+INFO - 2021-02-20 16:45:01 --> Security Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:45:01 --> Input Class Initialized
+INFO - 2021-02-20 16:45:01 --> Language Class Initialized
+INFO - 2021-02-20 16:45:01 --> Language Class Initialized
+INFO - 2021-02-20 16:45:01 --> Config Class Initialized
+INFO - 2021-02-20 16:45:01 --> Loader Class Initialized
+INFO - 2021-02-20 16:45:01 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:45:01 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:45:01 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:45:01 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:45:01 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:45:01 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:45:01 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:45:01 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:45:01 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:45:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:45:01 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:45:01 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:45:01 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:45:01 --> Model Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:45:01 --> Model Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:45:01 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:45:01 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:45:01 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:45:01 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:45:01 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:45:01 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:45:01 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:45:01 --> Model Class Initialized
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/senderIDRegistrationForm.php
+DEBUG - 2021-02-20 16:45:01 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:45:01 --> Final output sent to browser
+DEBUG - 2021-02-20 16:45:01 --> Total execution time: 0.1251
+INFO - 2021-02-20 16:48:00 --> Config Class Initialized
+INFO - 2021-02-20 16:48:00 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:48:00 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:48:00 --> URI Class Initialized
+INFO - 2021-02-20 16:48:00 --> Router Class Initialized
+INFO - 2021-02-20 16:48:00 --> Output Class Initialized
+INFO - 2021-02-20 16:48:00 --> Security Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:48:00 --> Input Class Initialized
+INFO - 2021-02-20 16:48:00 --> Language Class Initialized
+INFO - 2021-02-20 16:48:00 --> Language Class Initialized
+INFO - 2021-02-20 16:48:00 --> Config Class Initialized
+INFO - 2021-02-20 16:48:00 --> Loader Class Initialized
+INFO - 2021-02-20 16:48:00 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:48:00 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:48:00 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:48:00 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:48:00 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:48:00 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:48:00 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:48:00 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:48:00 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:48:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:48:00 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:48:00 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:00 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:48:00 --> Model Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:48:00 --> Model Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:48:00 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:48:00 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:48:00 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:48:00 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:48:00 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:48:00 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:48:00 --> Language file loaded: language/english/msg_lang.php
+INFO - 2021-02-20 16:48:00 --> Upload Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:48:00 --> Model Class Initialized
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/senderIDRegistrationForm.php
+DEBUG - 2021-02-20 16:48:00 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:48:00 --> Final output sent to browser
+DEBUG - 2021-02-20 16:48:00 --> Total execution time: 0.2056
+INFO - 2021-02-20 16:48:59 --> Config Class Initialized
+INFO - 2021-02-20 16:48:59 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:48:59 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:48:59 --> URI Class Initialized
+INFO - 2021-02-20 16:48:59 --> Router Class Initialized
+INFO - 2021-02-20 16:48:59 --> Output Class Initialized
+INFO - 2021-02-20 16:48:59 --> Security Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:48:59 --> Input Class Initialized
+INFO - 2021-02-20 16:48:59 --> Language Class Initialized
+INFO - 2021-02-20 16:48:59 --> Language Class Initialized
+INFO - 2021-02-20 16:48:59 --> Config Class Initialized
+INFO - 2021-02-20 16:48:59 --> Loader Class Initialized
+INFO - 2021-02-20 16:48:59 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:48:59 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:48:59 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:48:59 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:48:59 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:48:59 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:48:59 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:48:59 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:48:59 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:48:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:48:59 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:48:59 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:59 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:48:59 --> Model Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:48:59 --> Model Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:48:59 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:48:59 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:48:59 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:48:59 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:48:59 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:48:59 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:48:59 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:48:59 --> Model Class Initialized
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/smsSenderForm.php
+DEBUG - 2021-02-20 16:48:59 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:48:59 --> Final output sent to browser
+DEBUG - 2021-02-20 16:48:59 --> Total execution time: 0.2641
+INFO - 2021-02-20 16:49:46 --> Config Class Initialized
+INFO - 2021-02-20 16:49:46 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:49:46 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:49:46 --> URI Class Initialized
+INFO - 2021-02-20 16:49:46 --> Router Class Initialized
+INFO - 2021-02-20 16:49:46 --> Output Class Initialized
+INFO - 2021-02-20 16:49:46 --> Security Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:49:46 --> Input Class Initialized
+INFO - 2021-02-20 16:49:46 --> Language Class Initialized
+INFO - 2021-02-20 16:49:46 --> Language Class Initialized
+INFO - 2021-02-20 16:49:46 --> Config Class Initialized
+INFO - 2021-02-20 16:49:46 --> Loader Class Initialized
+INFO - 2021-02-20 16:49:46 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:49:46 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:49:46 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:49:46 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:49:46 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:49:46 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:49:46 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:49:46 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:49:46 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:49:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:49:46 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:49:46 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:49:46 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:49:46 --> Model Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:49:46 --> Model Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:49:46 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:49:46 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:49:46 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:49:46 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:49:46 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:49:46 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:49:46 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:49:46 --> Model Class Initialized
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/smsSenderForm.php
+DEBUG - 2021-02-20 16:49:46 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:49:46 --> Final output sent to browser
+DEBUG - 2021-02-20 16:49:46 --> Total execution time: 0.2093
+INFO - 2021-02-20 16:52:51 --> Config Class Initialized
+INFO - 2021-02-20 16:52:51 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:52:51 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:52:51 --> URI Class Initialized
+INFO - 2021-02-20 16:52:51 --> Router Class Initialized
+INFO - 2021-02-20 16:52:51 --> Output Class Initialized
+INFO - 2021-02-20 16:52:51 --> Security Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:52:51 --> Input Class Initialized
+INFO - 2021-02-20 16:52:51 --> Language Class Initialized
+INFO - 2021-02-20 16:52:51 --> Language Class Initialized
+INFO - 2021-02-20 16:52:51 --> Config Class Initialized
+INFO - 2021-02-20 16:52:51 --> Loader Class Initialized
+INFO - 2021-02-20 16:52:51 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:52:51 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:52:51 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:52:51 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:52:51 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:52:51 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:52:51 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:52:51 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:52:51 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:52:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:52:51 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:52:51 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:51 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:52:51 --> Model Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:52:51 --> Model Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:52:51 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:52:51 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:52:51 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:52:51 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:52:51 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:52:51 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:52:51 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:52:51 --> Model Class Initialized
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 16:52:51 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:52:51 --> Final output sent to browser
+DEBUG - 2021-02-20 16:52:51 --> Total execution time: 0.1801
+INFO - 2021-02-20 16:52:52 --> Config Class Initialized
+INFO - 2021-02-20 16:52:52 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:52:52 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:52:52 --> URI Class Initialized
+INFO - 2021-02-20 16:52:52 --> Router Class Initialized
+INFO - 2021-02-20 16:52:52 --> Output Class Initialized
+INFO - 2021-02-20 16:52:52 --> Security Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:52:52 --> Input Class Initialized
+INFO - 2021-02-20 16:52:52 --> Language Class Initialized
+INFO - 2021-02-20 16:52:52 --> Language Class Initialized
+INFO - 2021-02-20 16:52:52 --> Config Class Initialized
+INFO - 2021-02-20 16:52:52 --> Loader Class Initialized
+INFO - 2021-02-20 16:52:52 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:52:52 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:52:52 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:52:52 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:52:52 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:52:52 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:52:52 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:52:52 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:52:52 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:52:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:52:52 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:52:52 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:52 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:52:52 --> Model Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:52:52 --> Model Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:52:52 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:52:52 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:52:52 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:52:52 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:52:52 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:52:52 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:52:52 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:52:52 --> Model Class Initialized
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/smsSenderForm.php
+DEBUG - 2021-02-20 16:52:52 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:52:52 --> Final output sent to browser
+DEBUG - 2021-02-20 16:52:52 --> Total execution time: 0.1409
+INFO - 2021-02-20 16:53:53 --> Config Class Initialized
+INFO - 2021-02-20 16:53:53 --> Hooks Class Initialized
+DEBUG - 2021-02-20 16:53:53 --> UTF-8 Support Enabled
+INFO - 2021-02-20 16:53:53 --> Utf8 Class Initialized
+INFO - 2021-02-20 16:53:53 --> URI Class Initialized
+INFO - 2021-02-20 16:53:53 --> Router Class Initialized
+INFO - 2021-02-20 16:53:53 --> Output Class Initialized
+INFO - 2021-02-20 16:53:53 --> Security Class Initialized
+DEBUG - 2021-02-20 16:53:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 16:53:53 --> Input Class Initialized
+INFO - 2021-02-20 16:53:53 --> Language Class Initialized
+INFO - 2021-02-20 16:53:53 --> Language Class Initialized
+INFO - 2021-02-20 16:53:53 --> Config Class Initialized
+INFO - 2021-02-20 16:53:53 --> Loader Class Initialized
+INFO - 2021-02-20 16:53:53 --> Helper loaded: form_helper
+INFO - 2021-02-20 16:53:53 --> Helper loaded: url_helper
+INFO - 2021-02-20 16:53:53 --> Helper loaded: html_helper
+INFO - 2021-02-20 16:53:53 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 16:53:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 16:53:53 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 16:53:53 --> Controller Class Initialized
+DEBUG - 2021-02-20 16:53:53 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 16:53:53 --> Helper loaded: date_helper
+INFO - 2021-02-20 16:53:53 --> Helper loaded: download_helper
+INFO - 2021-02-20 16:53:53 --> Helper loaded: text_helper
+INFO - 2021-02-20 16:53:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 16:53:53 --> Pagination Class Initialized
+DEBUG - 2021-02-20 16:53:53 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 16:53:53 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 16:53:53 --> Home MX_Controller Initialized
+INFO - 2021-02-20 16:53:53 --> Model Class Initialized
+DEBUG - 2021-02-20 16:53:53 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 16:53:53 --> Model Class Initialized
+DEBUG - 2021-02-20 16:53:53 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 16:53:53 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 16:53:53 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 16:53:53 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 16:53:53 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 16:53:53 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 16:53:53 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 16:53:53 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 16:53:53 --> Helper loaded: language_helper
+INFO - 2021-02-20 16:53:53 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 16:53:53 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 16:53:53 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 16:53:53 --> Model Class Initialized
+DEBUG - 2021-02-20 16:53:54 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/smsSenderForm.php
+DEBUG - 2021-02-20 16:53:54 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 16:53:54 --> Final output sent to browser
+DEBUG - 2021-02-20 16:53:54 --> Total execution time: 1.3395
+INFO - 2021-02-20 19:30:39 --> Config Class Initialized
+INFO - 2021-02-20 19:30:39 --> Hooks Class Initialized
+DEBUG - 2021-02-20 19:30:39 --> UTF-8 Support Enabled
+INFO - 2021-02-20 19:30:39 --> Utf8 Class Initialized
+INFO - 2021-02-20 19:30:39 --> URI Class Initialized
+INFO - 2021-02-20 19:30:39 --> Router Class Initialized
+INFO - 2021-02-20 19:30:39 --> Output Class Initialized
+INFO - 2021-02-20 19:30:39 --> Security Class Initialized
+DEBUG - 2021-02-20 19:30:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 19:30:40 --> Input Class Initialized
+INFO - 2021-02-20 19:30:40 --> Language Class Initialized
+INFO - 2021-02-20 19:30:40 --> Language Class Initialized
+INFO - 2021-02-20 19:30:40 --> Config Class Initialized
+INFO - 2021-02-20 19:30:40 --> Loader Class Initialized
+INFO - 2021-02-20 19:30:40 --> Helper loaded: form_helper
+INFO - 2021-02-20 19:30:40 --> Helper loaded: url_helper
+INFO - 2021-02-20 19:30:40 --> Helper loaded: html_helper
+INFO - 2021-02-20 19:30:40 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 19:30:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 19:30:40 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 19:30:40 --> Controller Class Initialized
+DEBUG - 2021-02-20 19:30:40 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 19:30:40 --> Helper loaded: date_helper
+INFO - 2021-02-20 19:30:40 --> Helper loaded: download_helper
+INFO - 2021-02-20 19:30:40 --> Helper loaded: text_helper
+INFO - 2021-02-20 19:30:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 19:30:40 --> Pagination Class Initialized
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 19:30:40 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 19:30:40 --> Home MX_Controller Initialized
+INFO - 2021-02-20 19:30:40 --> Model Class Initialized
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 19:30:40 --> Model Class Initialized
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 19:30:40 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 19:30:40 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 19:30:40 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 19:30:40 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 19:30:40 --> Helper loaded: language_helper
+INFO - 2021-02-20 19:30:40 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 19:30:40 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 19:30:40 --> Model Class Initialized
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/smsSenderForm.php
+DEBUG - 2021-02-20 19:30:40 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 19:30:40 --> Final output sent to browser
+DEBUG - 2021-02-20 19:30:40 --> Total execution time: 0.4159
+INFO - 2021-02-20 19:44:00 --> Config Class Initialized
+INFO - 2021-02-20 19:44:00 --> Hooks Class Initialized
+DEBUG - 2021-02-20 19:44:00 --> UTF-8 Support Enabled
+INFO - 2021-02-20 19:44:00 --> Utf8 Class Initialized
+INFO - 2021-02-20 19:44:00 --> URI Class Initialized
+INFO - 2021-02-20 19:44:00 --> Router Class Initialized
+INFO - 2021-02-20 19:44:00 --> Output Class Initialized
+INFO - 2021-02-20 19:44:00 --> Security Class Initialized
+DEBUG - 2021-02-20 19:44:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 19:44:00 --> Input Class Initialized
+INFO - 2021-02-20 19:44:00 --> Language Class Initialized
+INFO - 2021-02-20 19:44:00 --> Language Class Initialized
+INFO - 2021-02-20 19:44:00 --> Config Class Initialized
+INFO - 2021-02-20 19:44:00 --> Loader Class Initialized
+INFO - 2021-02-20 19:44:00 --> Helper loaded: form_helper
+INFO - 2021-02-20 19:44:00 --> Helper loaded: url_helper
+INFO - 2021-02-20 19:44:00 --> Helper loaded: html_helper
+INFO - 2021-02-20 19:44:00 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 19:44:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 19:44:00 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 19:44:00 --> Controller Class Initialized
+DEBUG - 2021-02-20 19:44:00 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 19:44:00 --> Helper loaded: date_helper
+INFO - 2021-02-20 19:44:00 --> Helper loaded: download_helper
+INFO - 2021-02-20 19:44:00 --> Helper loaded: text_helper
+INFO - 2021-02-20 19:44:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 19:44:00 --> Pagination Class Initialized
+DEBUG - 2021-02-20 19:44:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 19:44:00 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 19:44:00 --> Home MX_Controller Initialized
+INFO - 2021-02-20 19:44:00 --> Model Class Initialized
+DEBUG - 2021-02-20 19:44:00 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 19:44:00 --> Model Class Initialized
+DEBUG - 2021-02-20 19:44:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 19:44:00 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 19:44:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 19:44:00 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 19:44:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 19:44:00 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 19:44:00 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 19:44:00 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 19:44:00 --> Helper loaded: language_helper
+INFO - 2021-02-20 19:44:00 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 19:44:00 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 19:44:01 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 19:44:01 --> Model Class Initialized
+DEBUG - 2021-02-20 19:44:01 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 19:44:01 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 19:44:01 --> Final output sent to browser
+DEBUG - 2021-02-20 19:44:01 --> Total execution time: 0.4178
+INFO - 2021-02-20 20:35:35 --> Config Class Initialized
+INFO - 2021-02-20 20:35:35 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:35:35 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:35:35 --> URI Class Initialized
+INFO - 2021-02-20 20:35:35 --> Router Class Initialized
+INFO - 2021-02-20 20:35:35 --> Output Class Initialized
+INFO - 2021-02-20 20:35:35 --> Security Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:35:35 --> Input Class Initialized
+INFO - 2021-02-20 20:35:35 --> Language Class Initialized
+INFO - 2021-02-20 20:35:35 --> Language Class Initialized
+INFO - 2021-02-20 20:35:35 --> Config Class Initialized
+INFO - 2021-02-20 20:35:35 --> Loader Class Initialized
+INFO - 2021-02-20 20:35:35 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:35:35 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:35:35 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:35:35 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:35:35 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:35:35 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:35:35 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:35:35 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:35:35 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:35:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:35:35 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:35:35 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:35 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:35:35 --> Model Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:35:35 --> Model Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:35:35 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:35:35 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:35:35 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:35:35 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:35:35 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:35:35 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:35:35 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:35:35 --> Model Class Initialized
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:35:35 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:35:35 --> Final output sent to browser
+DEBUG - 2021-02-20 20:35:35 --> Total execution time: 0.4017
+INFO - 2021-02-20 20:35:38 --> Config Class Initialized
+INFO - 2021-02-20 20:35:38 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:35:38 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:35:38 --> URI Class Initialized
+INFO - 2021-02-20 20:35:38 --> Router Class Initialized
+INFO - 2021-02-20 20:35:38 --> Output Class Initialized
+INFO - 2021-02-20 20:35:38 --> Security Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:35:38 --> Input Class Initialized
+INFO - 2021-02-20 20:35:38 --> Language Class Initialized
+INFO - 2021-02-20 20:35:38 --> Language Class Initialized
+INFO - 2021-02-20 20:35:38 --> Config Class Initialized
+INFO - 2021-02-20 20:35:38 --> Loader Class Initialized
+INFO - 2021-02-20 20:35:38 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:35:38 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:35:38 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:35:38 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:35:38 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:35:38 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:35:38 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:35:38 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:35:38 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:35:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:35:38 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:35:38 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:38 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:35:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:35:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:35:38 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:35:38 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:35:38 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:35:38 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:35:38 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:35:38 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:35:38 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:35:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:35:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:35:38 --> Final output sent to browser
+DEBUG - 2021-02-20 20:35:38 --> Total execution time: 0.2629
+INFO - 2021-02-20 20:37:49 --> Config Class Initialized
+INFO - 2021-02-20 20:37:49 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:37:49 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:37:49 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:37:49 --> URI Class Initialized
+INFO - 2021-02-20 20:37:49 --> Router Class Initialized
+INFO - 2021-02-20 20:37:49 --> Output Class Initialized
+INFO - 2021-02-20 20:37:49 --> Security Class Initialized
+DEBUG - 2021-02-20 20:37:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:37:49 --> Input Class Initialized
+INFO - 2021-02-20 20:37:49 --> Language Class Initialized
+INFO - 2021-02-20 20:37:49 --> Language Class Initialized
+INFO - 2021-02-20 20:37:49 --> Config Class Initialized
+INFO - 2021-02-20 20:37:49 --> Loader Class Initialized
+INFO - 2021-02-20 20:37:49 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:37:49 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:37:49 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:37:49 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:37:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:37:49 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:37:49 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:37:49 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:37:49 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:37:49 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:37:49 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:37:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:37:49 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:37:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:37:49 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:37:49 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:37:49 --> Model Class Initialized
+DEBUG - 2021-02-20 20:37:49 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:37:49 --> Model Class Initialized
+DEBUG - 2021-02-20 20:37:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:37:49 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:37:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:37:49 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:37:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:37:49 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:37:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:37:49 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:37:49 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:37:49 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:37:49 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:37:49 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:37:49 --> Model Class Initialized
+DEBUG - 2021-02-20 20:37:50 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:37:50 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:37:50 --> Final output sent to browser
+DEBUG - 2021-02-20 20:37:50 --> Total execution time: 0.4709
+INFO - 2021-02-20 20:39:31 --> Config Class Initialized
+INFO - 2021-02-20 20:39:31 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:39:31 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:39:31 --> URI Class Initialized
+INFO - 2021-02-20 20:39:31 --> Router Class Initialized
+INFO - 2021-02-20 20:39:31 --> Output Class Initialized
+INFO - 2021-02-20 20:39:31 --> Security Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:39:31 --> Input Class Initialized
+INFO - 2021-02-20 20:39:31 --> Language Class Initialized
+INFO - 2021-02-20 20:39:31 --> Language Class Initialized
+INFO - 2021-02-20 20:39:31 --> Config Class Initialized
+INFO - 2021-02-20 20:39:31 --> Loader Class Initialized
+INFO - 2021-02-20 20:39:31 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:39:31 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:39:31 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:39:31 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:39:31 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:39:31 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:39:31 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:39:31 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:39:31 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:39:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:39:31 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:39:31 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:39:31 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:39:31 --> Model Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:39:31 --> Model Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:39:31 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:39:31 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:39:31 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:39:31 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:39:31 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:39:31 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:39:31 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:39:31 --> Model Class Initialized
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:39:31 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:39:31 --> Final output sent to browser
+DEBUG - 2021-02-20 20:39:31 --> Total execution time: 0.4430
+INFO - 2021-02-20 20:40:04 --> Config Class Initialized
+INFO - 2021-02-20 20:40:04 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:40:04 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:40:04 --> URI Class Initialized
+INFO - 2021-02-20 20:40:04 --> Router Class Initialized
+INFO - 2021-02-20 20:40:04 --> Output Class Initialized
+INFO - 2021-02-20 20:40:04 --> Security Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:40:04 --> Input Class Initialized
+INFO - 2021-02-20 20:40:04 --> Language Class Initialized
+INFO - 2021-02-20 20:40:04 --> Language Class Initialized
+INFO - 2021-02-20 20:40:04 --> Config Class Initialized
+INFO - 2021-02-20 20:40:04 --> Loader Class Initialized
+INFO - 2021-02-20 20:40:04 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:40:04 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:40:04 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:40:04 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:40:04 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:40:04 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:40:04 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:40:04 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:40:04 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:40:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:40:04 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:40:04 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:04 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:40:04 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:40:04 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:40:04 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:40:04 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:40:04 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:40:04 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:40:04 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:40:04 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:40:04 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:40:04 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:40:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:40:04 --> Final output sent to browser
+DEBUG - 2021-02-20 20:40:04 --> Total execution time: 0.5265
+INFO - 2021-02-20 20:40:37 --> Config Class Initialized
+INFO - 2021-02-20 20:40:37 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:40:37 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:40:37 --> URI Class Initialized
+INFO - 2021-02-20 20:40:37 --> Router Class Initialized
+INFO - 2021-02-20 20:40:37 --> Output Class Initialized
+INFO - 2021-02-20 20:40:37 --> Security Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:40:37 --> Input Class Initialized
+INFO - 2021-02-20 20:40:37 --> Language Class Initialized
+INFO - 2021-02-20 20:40:37 --> Language Class Initialized
+INFO - 2021-02-20 20:40:37 --> Config Class Initialized
+INFO - 2021-02-20 20:40:37 --> Loader Class Initialized
+INFO - 2021-02-20 20:40:37 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:40:37 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:40:37 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:40:37 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:40:37 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:40:37 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:40:37 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:40:37 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:40:37 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:40:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:40:37 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:40:37 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:37 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:40:37 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:40:37 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:40:37 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:40:37 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:40:37 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:40:37 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:40:37 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:40:37 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:40:37 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:40:37 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:40:37 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:40:37 --> Final output sent to browser
+DEBUG - 2021-02-20 20:40:37 --> Total execution time: 0.3956
+INFO - 2021-02-20 20:40:39 --> Config Class Initialized
+INFO - 2021-02-20 20:40:39 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:40:39 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:40:39 --> URI Class Initialized
+INFO - 2021-02-20 20:40:39 --> Router Class Initialized
+INFO - 2021-02-20 20:40:39 --> Output Class Initialized
+INFO - 2021-02-20 20:40:39 --> Security Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:40:39 --> Input Class Initialized
+INFO - 2021-02-20 20:40:39 --> Language Class Initialized
+INFO - 2021-02-20 20:40:39 --> Language Class Initialized
+INFO - 2021-02-20 20:40:39 --> Config Class Initialized
+INFO - 2021-02-20 20:40:39 --> Loader Class Initialized
+INFO - 2021-02-20 20:40:39 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:40:39 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:40:39 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:40:39 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:40:39 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:40:39 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:40:39 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:40:39 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:40:39 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:40:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:40:39 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:40:39 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:39 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:40:39 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:40:39 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:40:39 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:40:39 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:40:39 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:40:39 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:40:39 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:40:39 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:40:39 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:40:39 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:40:39 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:40:39 --> Final output sent to browser
+DEBUG - 2021-02-20 20:40:39 --> Total execution time: 0.2277
+INFO - 2021-02-20 20:40:58 --> Config Class Initialized
+INFO - 2021-02-20 20:40:58 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:40:58 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:40:58 --> URI Class Initialized
+INFO - 2021-02-20 20:40:58 --> Router Class Initialized
+INFO - 2021-02-20 20:40:58 --> Output Class Initialized
+INFO - 2021-02-20 20:40:58 --> Security Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:40:58 --> Input Class Initialized
+INFO - 2021-02-20 20:40:58 --> Language Class Initialized
+INFO - 2021-02-20 20:40:58 --> Language Class Initialized
+INFO - 2021-02-20 20:40:58 --> Config Class Initialized
+INFO - 2021-02-20 20:40:58 --> Loader Class Initialized
+INFO - 2021-02-20 20:40:58 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:40:58 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:40:58 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:40:58 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:40:58 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:40:58 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:40:58 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:40:58 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:40:58 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:40:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:40:58 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:40:58 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:58 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:40:58 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:40:58 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:40:58 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:40:58 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:40:58 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:40:58 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:40:58 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:40:58 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:40:58 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:40:58 --> Model Class Initialized
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:40:58 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:40:58 --> Final output sent to browser
+DEBUG - 2021-02-20 20:40:58 --> Total execution time: 0.3329
+INFO - 2021-02-20 20:43:08 --> Config Class Initialized
+INFO - 2021-02-20 20:43:08 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:43:08 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:43:08 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:43:08 --> URI Class Initialized
+INFO - 2021-02-20 20:43:08 --> Router Class Initialized
+INFO - 2021-02-20 20:43:08 --> Output Class Initialized
+INFO - 2021-02-20 20:43:08 --> Security Class Initialized
+DEBUG - 2021-02-20 20:43:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:43:08 --> Input Class Initialized
+INFO - 2021-02-20 20:43:08 --> Language Class Initialized
+INFO - 2021-02-20 20:43:08 --> Language Class Initialized
+INFO - 2021-02-20 20:43:08 --> Config Class Initialized
+INFO - 2021-02-20 20:43:08 --> Loader Class Initialized
+INFO - 2021-02-20 20:43:08 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:43:08 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:43:08 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:43:08 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:43:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:43:08 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:43:09 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:43:09 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:43:09 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:43:09 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:43:09 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:43:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:43:09 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:43:09 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:09 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:43:09 --> Model Class Initialized
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:43:09 --> Model Class Initialized
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:43:09 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:43:09 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:43:09 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:43:09 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:43:09 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:43:09 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:43:09 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:43:09 --> Model Class Initialized
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:43:09 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:43:09 --> Final output sent to browser
+DEBUG - 2021-02-20 20:43:09 --> Total execution time: 0.5135
+INFO - 2021-02-20 20:43:12 --> Config Class Initialized
+INFO - 2021-02-20 20:43:12 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:43:12 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:43:12 --> URI Class Initialized
+INFO - 2021-02-20 20:43:12 --> Router Class Initialized
+INFO - 2021-02-20 20:43:12 --> Output Class Initialized
+INFO - 2021-02-20 20:43:12 --> Security Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:43:12 --> Input Class Initialized
+INFO - 2021-02-20 20:43:12 --> Language Class Initialized
+INFO - 2021-02-20 20:43:12 --> Language Class Initialized
+INFO - 2021-02-20 20:43:12 --> Config Class Initialized
+INFO - 2021-02-20 20:43:12 --> Loader Class Initialized
+INFO - 2021-02-20 20:43:12 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:43:12 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:43:12 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:43:12 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:43:12 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:43:12 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:43:12 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:43:12 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:43:12 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:43:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:43:12 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:43:12 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:12 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:43:12 --> Model Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:43:12 --> Model Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:43:12 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:43:12 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:43:12 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:43:12 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:43:12 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:43:12 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:43:12 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:43:12 --> Model Class Initialized
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:43:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:43:12 --> Final output sent to browser
+DEBUG - 2021-02-20 20:43:12 --> Total execution time: 0.3643
+INFO - 2021-02-20 20:44:42 --> Config Class Initialized
+INFO - 2021-02-20 20:44:42 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:44:42 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:44:42 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:44:42 --> URI Class Initialized
+INFO - 2021-02-20 20:44:42 --> Router Class Initialized
+INFO - 2021-02-20 20:44:42 --> Output Class Initialized
+INFO - 2021-02-20 20:44:42 --> Security Class Initialized
+DEBUG - 2021-02-20 20:44:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:44:42 --> Input Class Initialized
+INFO - 2021-02-20 20:44:42 --> Language Class Initialized
+INFO - 2021-02-20 20:44:42 --> Language Class Initialized
+INFO - 2021-02-20 20:44:42 --> Config Class Initialized
+INFO - 2021-02-20 20:44:42 --> Loader Class Initialized
+INFO - 2021-02-20 20:44:43 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:44:43 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:44:43 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:44:43 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:44:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:44:43 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:44:43 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:44:43 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:44:43 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:44:43 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:44:43 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:44:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:44:43 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:44:43 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:44:43 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:44:43 --> Model Class Initialized
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:44:43 --> Model Class Initialized
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:44:43 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:44:43 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:44:43 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:44:43 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:44:43 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:44:43 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:44:43 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:44:43 --> Model Class Initialized
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:44:43 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:44:43 --> Final output sent to browser
+DEBUG - 2021-02-20 20:44:43 --> Total execution time: 0.4137
+INFO - 2021-02-20 20:45:36 --> Config Class Initialized
+INFO - 2021-02-20 20:45:36 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:45:36 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:45:36 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:45:36 --> URI Class Initialized
+INFO - 2021-02-20 20:45:36 --> Router Class Initialized
+INFO - 2021-02-20 20:45:36 --> Output Class Initialized
+INFO - 2021-02-20 20:45:36 --> Security Class Initialized
+DEBUG - 2021-02-20 20:45:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:45:36 --> Input Class Initialized
+INFO - 2021-02-20 20:45:36 --> Language Class Initialized
+INFO - 2021-02-20 20:45:36 --> Language Class Initialized
+INFO - 2021-02-20 20:45:36 --> Config Class Initialized
+INFO - 2021-02-20 20:45:36 --> Loader Class Initialized
+INFO - 2021-02-20 20:45:36 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:45:36 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:45:36 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:45:36 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:45:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:45:36 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:45:36 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:45:36 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:45:36 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:45:36 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:45:36 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:45:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:45:36 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:45:36 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:45:36 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:45:36 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:45:36 --> Model Class Initialized
+DEBUG - 2021-02-20 20:45:36 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:45:36 --> Model Class Initialized
+DEBUG - 2021-02-20 20:45:36 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:45:36 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:45:36 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:45:36 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:45:36 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:45:36 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:45:36 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:45:36 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:45:36 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:45:36 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:45:36 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:45:36 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:45:36 --> Model Class Initialized
+DEBUG - 2021-02-20 20:45:37 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:45:37 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:45:37 --> Final output sent to browser
+DEBUG - 2021-02-20 20:45:37 --> Total execution time: 0.4973
+INFO - 2021-02-20 20:46:04 --> Config Class Initialized
+INFO - 2021-02-20 20:46:04 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:46:05 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:46:05 --> URI Class Initialized
+INFO - 2021-02-20 20:46:05 --> Router Class Initialized
+INFO - 2021-02-20 20:46:05 --> Output Class Initialized
+INFO - 2021-02-20 20:46:05 --> Security Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:46:05 --> Input Class Initialized
+INFO - 2021-02-20 20:46:05 --> Language Class Initialized
+INFO - 2021-02-20 20:46:05 --> Language Class Initialized
+INFO - 2021-02-20 20:46:05 --> Config Class Initialized
+INFO - 2021-02-20 20:46:05 --> Loader Class Initialized
+INFO - 2021-02-20 20:46:05 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:46:05 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:46:05 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:46:05 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:46:05 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:46:05 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:46:05 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:46:05 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:46:05 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:46:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:46:05 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:46:05 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:05 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:46:05 --> Model Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:46:05 --> Model Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:46:05 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:46:05 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:46:05 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:46:05 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:46:05 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:46:05 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:46:05 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:46:05 --> Model Class Initialized
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:46:05 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:46:05 --> Final output sent to browser
+DEBUG - 2021-02-20 20:46:05 --> Total execution time: 0.3354
+INFO - 2021-02-20 20:46:49 --> Config Class Initialized
+INFO - 2021-02-20 20:46:49 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:46:49 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:46:49 --> URI Class Initialized
+INFO - 2021-02-20 20:46:49 --> Router Class Initialized
+INFO - 2021-02-20 20:46:49 --> Output Class Initialized
+INFO - 2021-02-20 20:46:49 --> Security Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:46:49 --> Input Class Initialized
+INFO - 2021-02-20 20:46:49 --> Language Class Initialized
+INFO - 2021-02-20 20:46:49 --> Language Class Initialized
+INFO - 2021-02-20 20:46:49 --> Config Class Initialized
+INFO - 2021-02-20 20:46:49 --> Loader Class Initialized
+INFO - 2021-02-20 20:46:49 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:46:49 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:46:49 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:46:49 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:46:49 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:46:49 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:46:49 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:46:49 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:46:49 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:46:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:46:49 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:46:49 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:49 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:46:49 --> Model Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:46:49 --> Model Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:46:49 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:46:49 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:46:49 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:46:49 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:46:49 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:46:49 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:46:49 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:46:49 --> Model Class Initialized
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:46:49 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:46:49 --> Final output sent to browser
+DEBUG - 2021-02-20 20:46:49 --> Total execution time: 0.4679
+INFO - 2021-02-20 20:47:38 --> Config Class Initialized
+INFO - 2021-02-20 20:47:38 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:47:38 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:47:38 --> URI Class Initialized
+INFO - 2021-02-20 20:47:38 --> Router Class Initialized
+INFO - 2021-02-20 20:47:38 --> Output Class Initialized
+INFO - 2021-02-20 20:47:38 --> Security Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:47:38 --> Input Class Initialized
+INFO - 2021-02-20 20:47:38 --> Language Class Initialized
+INFO - 2021-02-20 20:47:38 --> Language Class Initialized
+INFO - 2021-02-20 20:47:38 --> Config Class Initialized
+INFO - 2021-02-20 20:47:38 --> Loader Class Initialized
+INFO - 2021-02-20 20:47:38 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:47:38 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:47:38 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:47:38 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:47:38 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:47:38 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:47:38 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:47:38 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:47:38 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:47:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:47:38 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:47:38 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:47:38 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:47:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:47:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:47:38 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:47:38 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:47:38 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:47:38 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:47:38 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:47:38 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:47:38 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:47:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:47:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:47:38 --> Final output sent to browser
+DEBUG - 2021-02-20 20:47:38 --> Total execution time: 0.4932
+INFO - 2021-02-20 20:48:10 --> Config Class Initialized
+INFO - 2021-02-20 20:48:10 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:48:10 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:48:10 --> URI Class Initialized
+INFO - 2021-02-20 20:48:10 --> Router Class Initialized
+INFO - 2021-02-20 20:48:10 --> Output Class Initialized
+INFO - 2021-02-20 20:48:10 --> Security Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:48:10 --> Input Class Initialized
+INFO - 2021-02-20 20:48:10 --> Language Class Initialized
+INFO - 2021-02-20 20:48:10 --> Language Class Initialized
+INFO - 2021-02-20 20:48:10 --> Config Class Initialized
+INFO - 2021-02-20 20:48:10 --> Loader Class Initialized
+INFO - 2021-02-20 20:48:10 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:48:10 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:48:10 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:48:10 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:48:10 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:48:10 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:48:10 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:48:10 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:48:10 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:48:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:48:10 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:48:10 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:10 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:48:10 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:48:10 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:48:10 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:48:10 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:48:10 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:48:10 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:48:10 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:48:10 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:48:10 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:48:10 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:48:10 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:48:10 --> Final output sent to browser
+DEBUG - 2021-02-20 20:48:10 --> Total execution time: 0.4955
+INFO - 2021-02-20 20:48:21 --> Config Class Initialized
+INFO - 2021-02-20 20:48:21 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:48:21 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:48:21 --> URI Class Initialized
+INFO - 2021-02-20 20:48:21 --> Router Class Initialized
+INFO - 2021-02-20 20:48:21 --> Output Class Initialized
+INFO - 2021-02-20 20:48:21 --> Security Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:48:21 --> Input Class Initialized
+INFO - 2021-02-20 20:48:21 --> Language Class Initialized
+INFO - 2021-02-20 20:48:21 --> Language Class Initialized
+INFO - 2021-02-20 20:48:21 --> Config Class Initialized
+INFO - 2021-02-20 20:48:21 --> Loader Class Initialized
+INFO - 2021-02-20 20:48:21 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:48:21 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:48:21 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:48:21 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:48:21 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:48:21 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:48:21 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:48:21 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:48:21 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:48:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:48:21 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:48:21 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:21 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:48:21 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:48:21 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:48:21 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:48:21 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:48:21 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:48:21 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:48:21 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:48:21 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:48:21 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:48:21 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:48:21 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:48:21 --> Final output sent to browser
+DEBUG - 2021-02-20 20:48:21 --> Total execution time: 0.3103
+INFO - 2021-02-20 20:48:40 --> Config Class Initialized
+INFO - 2021-02-20 20:48:40 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:48:40 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:48:40 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:48:40 --> URI Class Initialized
+INFO - 2021-02-20 20:48:41 --> Router Class Initialized
+INFO - 2021-02-20 20:48:41 --> Output Class Initialized
+INFO - 2021-02-20 20:48:41 --> Security Class Initialized
+DEBUG - 2021-02-20 20:48:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:48:41 --> Input Class Initialized
+INFO - 2021-02-20 20:48:41 --> Language Class Initialized
+INFO - 2021-02-20 20:48:41 --> Language Class Initialized
+INFO - 2021-02-20 20:48:41 --> Config Class Initialized
+INFO - 2021-02-20 20:48:41 --> Loader Class Initialized
+INFO - 2021-02-20 20:48:41 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:48:41 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:48:41 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:48:41 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:48:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:48:41 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:48:41 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:48:41 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:48:41 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:48:41 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:48:41 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:48:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:48:41 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:48:41 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:41 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:48:41 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:48:41 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:48:41 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:48:41 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:48:41 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:48:41 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:48:41 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:48:41 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:48:41 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:48:41 --> Model Class Initialized
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/smsSenderForm.php
+DEBUG - 2021-02-20 20:48:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:48:41 --> Final output sent to browser
+DEBUG - 2021-02-20 20:48:41 --> Total execution time: 0.5351
+INFO - 2021-02-20 20:49:04 --> Config Class Initialized
+INFO - 2021-02-20 20:49:04 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:49:04 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:49:04 --> URI Class Initialized
+INFO - 2021-02-20 20:49:04 --> Router Class Initialized
+INFO - 2021-02-20 20:49:04 --> Output Class Initialized
+INFO - 2021-02-20 20:49:04 --> Security Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:49:04 --> Input Class Initialized
+INFO - 2021-02-20 20:49:04 --> Language Class Initialized
+INFO - 2021-02-20 20:49:04 --> Language Class Initialized
+INFO - 2021-02-20 20:49:04 --> Config Class Initialized
+INFO - 2021-02-20 20:49:04 --> Loader Class Initialized
+INFO - 2021-02-20 20:49:04 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:49:04 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:49:04 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:49:04 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:49:04 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:49:04 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:49:04 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:49:04 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:49:04 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:49:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:49:04 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:49:04 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:04 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:49:04 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:49:04 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:49:04 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:49:04 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:49:04 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:49:04 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:49:04 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:49:04 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:49:04 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:49:04 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/smsSenderForm.php
+DEBUG - 2021-02-20 20:49:04 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:49:04 --> Final output sent to browser
+DEBUG - 2021-02-20 20:49:04 --> Total execution time: 0.2911
+INFO - 2021-02-20 20:49:11 --> Config Class Initialized
+INFO - 2021-02-20 20:49:11 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:49:11 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:49:11 --> URI Class Initialized
+INFO - 2021-02-20 20:49:11 --> Router Class Initialized
+INFO - 2021-02-20 20:49:11 --> Output Class Initialized
+INFO - 2021-02-20 20:49:11 --> Security Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:49:11 --> Input Class Initialized
+INFO - 2021-02-20 20:49:11 --> Language Class Initialized
+INFO - 2021-02-20 20:49:11 --> Language Class Initialized
+INFO - 2021-02-20 20:49:11 --> Config Class Initialized
+INFO - 2021-02-20 20:49:11 --> Loader Class Initialized
+INFO - 2021-02-20 20:49:11 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:49:11 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:49:11 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:49:11 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:49:11 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:49:11 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:49:11 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:49:11 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:49:11 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:49:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:49:11 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:49:11 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:11 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:49:11 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:49:11 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:49:11 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:49:11 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:49:11 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:49:11 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:49:11 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:49:11 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:49:11 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:49:11 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:49:11 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:49:11 --> Final output sent to browser
+DEBUG - 2021-02-20 20:49:11 --> Total execution time: 0.4073
+INFO - 2021-02-20 20:49:48 --> Config Class Initialized
+INFO - 2021-02-20 20:49:48 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:49:48 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:49:48 --> URI Class Initialized
+INFO - 2021-02-20 20:49:48 --> Router Class Initialized
+INFO - 2021-02-20 20:49:48 --> Output Class Initialized
+INFO - 2021-02-20 20:49:48 --> Security Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:49:48 --> Input Class Initialized
+INFO - 2021-02-20 20:49:48 --> Language Class Initialized
+INFO - 2021-02-20 20:49:48 --> Language Class Initialized
+INFO - 2021-02-20 20:49:48 --> Config Class Initialized
+INFO - 2021-02-20 20:49:48 --> Loader Class Initialized
+INFO - 2021-02-20 20:49:48 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:49:48 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:49:48 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:49:48 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:49:48 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:49:48 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:49:48 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:49:48 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:49:48 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:49:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:49:48 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:49:48 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:48 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:49:48 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:49:48 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:49:48 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:49:48 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:49:48 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:49:48 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:49:48 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:49:48 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:49:48 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:49:48 --> Model Class Initialized
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:49:48 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:49:48 --> Final output sent to browser
+DEBUG - 2021-02-20 20:49:48 --> Total execution time: 0.3790
+INFO - 2021-02-20 20:50:25 --> Config Class Initialized
+INFO - 2021-02-20 20:50:25 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:50:25 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:50:25 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:50:25 --> URI Class Initialized
+INFO - 2021-02-20 20:50:25 --> Router Class Initialized
+INFO - 2021-02-20 20:50:25 --> Output Class Initialized
+INFO - 2021-02-20 20:50:25 --> Security Class Initialized
+DEBUG - 2021-02-20 20:50:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:50:25 --> Input Class Initialized
+INFO - 2021-02-20 20:50:25 --> Language Class Initialized
+INFO - 2021-02-20 20:50:25 --> Language Class Initialized
+INFO - 2021-02-20 20:50:25 --> Config Class Initialized
+INFO - 2021-02-20 20:50:25 --> Loader Class Initialized
+INFO - 2021-02-20 20:50:25 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:50:25 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:50:25 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:50:25 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:50:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:50:25 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:50:25 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:50:25 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:50:25 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:50:25 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:50:25 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:50:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:50:25 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:50:25 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:50:25 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:25 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:50:25 --> Model Class Initialized
+DEBUG - 2021-02-20 20:50:25 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:50:25 --> Model Class Initialized
+DEBUG - 2021-02-20 20:50:25 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:50:25 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:26 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:50:26 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:26 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:50:26 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:26 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:50:26 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:50:26 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:50:26 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:50:26 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:50:26 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:50:26 --> Model Class Initialized
+DEBUG - 2021-02-20 20:50:26 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:50:26 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:50:26 --> Final output sent to browser
+DEBUG - 2021-02-20 20:50:26 --> Total execution time: 0.4198
+INFO - 2021-02-20 20:50:28 --> Config Class Initialized
+INFO - 2021-02-20 20:50:28 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:50:28 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:50:28 --> URI Class Initialized
+INFO - 2021-02-20 20:50:28 --> Router Class Initialized
+INFO - 2021-02-20 20:50:28 --> Output Class Initialized
+INFO - 2021-02-20 20:50:28 --> Security Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:50:28 --> Input Class Initialized
+INFO - 2021-02-20 20:50:28 --> Language Class Initialized
+INFO - 2021-02-20 20:50:28 --> Language Class Initialized
+INFO - 2021-02-20 20:50:28 --> Config Class Initialized
+INFO - 2021-02-20 20:50:28 --> Loader Class Initialized
+INFO - 2021-02-20 20:50:28 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:50:28 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:50:28 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:50:28 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:50:28 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:50:28 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:50:28 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:50:28 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:50:28 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:50:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:50:28 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:50:28 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:28 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:50:28 --> Model Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:50:28 --> Model Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:50:28 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:50:28 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:50:28 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:50:28 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:50:28 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:50:28 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:50:28 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:50:28 --> Model Class Initialized
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:50:28 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:50:28 --> Final output sent to browser
+DEBUG - 2021-02-20 20:50:28 --> Total execution time: 0.3717
+INFO - 2021-02-20 20:51:41 --> Config Class Initialized
+INFO - 2021-02-20 20:51:41 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:51:41 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:51:41 --> URI Class Initialized
+INFO - 2021-02-20 20:51:41 --> Router Class Initialized
+INFO - 2021-02-20 20:51:41 --> Output Class Initialized
+INFO - 2021-02-20 20:51:41 --> Security Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:51:41 --> Input Class Initialized
+INFO - 2021-02-20 20:51:41 --> Language Class Initialized
+INFO - 2021-02-20 20:51:41 --> Language Class Initialized
+INFO - 2021-02-20 20:51:41 --> Config Class Initialized
+INFO - 2021-02-20 20:51:41 --> Loader Class Initialized
+INFO - 2021-02-20 20:51:41 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:51:41 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:51:41 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:51:41 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:51:41 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:51:41 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:51:41 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:51:41 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:51:41 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:51:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:51:41 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:51:41 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:51:41 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:51:41 --> Model Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:51:41 --> Model Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:51:41 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:51:41 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:51:41 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:51:41 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:51:41 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:51:41 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:51:41 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:51:41 --> Model Class Initialized
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:51:41 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:51:41 --> Final output sent to browser
+DEBUG - 2021-02-20 20:51:41 --> Total execution time: 0.4182
+INFO - 2021-02-20 20:52:16 --> Config Class Initialized
+INFO - 2021-02-20 20:52:16 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:52:16 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:52:16 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:52:16 --> URI Class Initialized
+INFO - 2021-02-20 20:52:16 --> Router Class Initialized
+INFO - 2021-02-20 20:52:16 --> Output Class Initialized
+INFO - 2021-02-20 20:52:16 --> Security Class Initialized
+DEBUG - 2021-02-20 20:52:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:52:16 --> Input Class Initialized
+INFO - 2021-02-20 20:52:16 --> Language Class Initialized
+INFO - 2021-02-20 20:52:16 --> Language Class Initialized
+INFO - 2021-02-20 20:52:16 --> Config Class Initialized
+INFO - 2021-02-20 20:52:16 --> Loader Class Initialized
+INFO - 2021-02-20 20:52:16 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:52:16 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:52:16 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:52:16 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:52:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:52:16 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:52:16 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:52:16 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:52:16 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:52:16 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:52:16 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:52:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:52:16 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:52:16 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:52:16 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:16 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:52:16 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:16 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:52:16 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:16 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:52:16 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:17 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:52:17 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:17 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:52:17 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:17 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:52:17 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:52:17 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:52:17 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:52:17 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:52:17 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:52:17 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:17 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:52:17 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:52:17 --> Final output sent to browser
+DEBUG - 2021-02-20 20:52:17 --> Total execution time: 0.4769
+INFO - 2021-02-20 20:52:38 --> Config Class Initialized
+INFO - 2021-02-20 20:52:38 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:52:38 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:52:38 --> URI Class Initialized
+INFO - 2021-02-20 20:52:38 --> Router Class Initialized
+INFO - 2021-02-20 20:52:38 --> Output Class Initialized
+INFO - 2021-02-20 20:52:38 --> Security Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:52:38 --> Input Class Initialized
+INFO - 2021-02-20 20:52:38 --> Language Class Initialized
+INFO - 2021-02-20 20:52:38 --> Language Class Initialized
+INFO - 2021-02-20 20:52:38 --> Config Class Initialized
+INFO - 2021-02-20 20:52:38 --> Loader Class Initialized
+INFO - 2021-02-20 20:52:38 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:52:38 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:52:38 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:52:38 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:52:38 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:52:38 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:52:38 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:52:38 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:52:38 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:52:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:52:38 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:52:38 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:38 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:52:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:52:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:52:38 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:52:38 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:52:38 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:52:38 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:52:38 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:52:38 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:52:38 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:52:38 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:52:38 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:52:38 --> Final output sent to browser
+DEBUG - 2021-02-20 20:52:38 --> Total execution time: 0.3306
+INFO - 2021-02-20 20:52:55 --> Config Class Initialized
+INFO - 2021-02-20 20:52:55 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:52:55 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:52:55 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:52:55 --> URI Class Initialized
+INFO - 2021-02-20 20:52:55 --> Router Class Initialized
+INFO - 2021-02-20 20:52:55 --> Output Class Initialized
+INFO - 2021-02-20 20:52:55 --> Security Class Initialized
+DEBUG - 2021-02-20 20:52:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:52:55 --> Input Class Initialized
+INFO - 2021-02-20 20:52:55 --> Language Class Initialized
+INFO - 2021-02-20 20:52:55 --> Language Class Initialized
+INFO - 2021-02-20 20:52:55 --> Config Class Initialized
+INFO - 2021-02-20 20:52:55 --> Loader Class Initialized
+INFO - 2021-02-20 20:52:56 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:52:56 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:52:56 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:52:56 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:52:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:52:56 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:52:56 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:52:56 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:52:56 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:52:56 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:52:56 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:52:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:52:56 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:52:56 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:56 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:52:56 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:52:56 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:52:56 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:52:56 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:52:56 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:52:56 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:52:56 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:52:56 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:52:56 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:52:56 --> Model Class Initialized
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:52:56 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:52:56 --> Final output sent to browser
+DEBUG - 2021-02-20 20:52:56 --> Total execution time: 0.4405
+INFO - 2021-02-20 20:53:12 --> Config Class Initialized
+INFO - 2021-02-20 20:53:12 --> Hooks Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> UTF-8 Support Enabled
+INFO - 2021-02-20 20:53:12 --> Utf8 Class Initialized
+INFO - 2021-02-20 20:53:12 --> URI Class Initialized
+INFO - 2021-02-20 20:53:12 --> Router Class Initialized
+INFO - 2021-02-20 20:53:12 --> Output Class Initialized
+INFO - 2021-02-20 20:53:12 --> Security Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-02-20 20:53:12 --> Input Class Initialized
+INFO - 2021-02-20 20:53:12 --> Language Class Initialized
+INFO - 2021-02-20 20:53:12 --> Language Class Initialized
+INFO - 2021-02-20 20:53:12 --> Config Class Initialized
+INFO - 2021-02-20 20:53:12 --> Loader Class Initialized
+INFO - 2021-02-20 20:53:12 --> Helper loaded: form_helper
+INFO - 2021-02-20 20:53:12 --> Helper loaded: url_helper
+INFO - 2021-02-20 20:53:12 --> Helper loaded: html_helper
+INFO - 2021-02-20 20:53:12 --> Database Driver Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2021-02-20 20:53:12 --> Session: Class initialized using 'files' driver.
+INFO - 2021-02-20 20:53:12 --> Controller Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> Mysms MX_Controller Initialized
+INFO - 2021-02-20 20:53:12 --> Helper loaded: date_helper
+INFO - 2021-02-20 20:53:12 --> Helper loaded: download_helper
+INFO - 2021-02-20 20:53:12 --> Helper loaded: text_helper
+INFO - 2021-02-20 20:53:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2021-02-20 20:53:12 --> Pagination Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Home/controllers/Home.php
+DEBUG - 2021-02-20 20:53:12 --> Home MX_Controller Initialized
+DEBUG - 2021-02-20 20:53:12 --> Home MX_Controller Initialized
+INFO - 2021-02-20 20:53:12 --> Model Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Home/models/Mdl_home.php
+INFO - 2021-02-20 20:53:12 --> Model Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Admin/controllers/Admin.php
+DEBUG - 2021-02-20 20:53:12 --> Admin MX_Controller Initialized
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Users/controllers/Users.php
+DEBUG - 2021-02-20 20:53:12 --> users MX_Controller Initialized
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Mauzo/controllers/Mauzo.php
+DEBUG - 2021-02-20 20:53:12 --> Mauzo MX_Controller Initialized
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\controllers/../modules/Matumizi/controllers/Matumizi.php
+DEBUG - 2021-02-20 20:53:12 --> Matumizi MX_Controller Initialized
+INFO - 2021-02-20 20:53:12 --> Helper loaded: language_helper
+INFO - 2021-02-20 20:53:12 --> Language file loaded: language/english/adminmsg_lang.php
+INFO - 2021-02-20 20:53:12 --> Language file loaded: language/english/msg_lang.php
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/models/Mdl_mysms.php
+INFO - 2021-02-20 20:53:12 --> Model Class Initialized
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/dashboard.php
+DEBUG - 2021-02-20 20:53:12 --> File loaded: C:\xampp\htdocs\mysms\application\modules/Mysms/views/index.php
+INFO - 2021-02-20 20:53:12 --> Final output sent to browser
+DEBUG - 2021-02-20 20:53:12 --> Total execution time: 0.3372

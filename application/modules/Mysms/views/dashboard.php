@@ -217,6 +217,9 @@
 ?>
 
 <div class="row" >
+    <div class="col-lg-12 col-md-12 col-sm-12 hidden-md hidden-lg hidden-xl" style="padding-bottom: 20px; text-align: right;">
+        <a href="<?php echo base_url('Mysms/smsSenderForm');?>" class="btn btn-md btn-info" style=" margin-left: 20px;"><b>Send SMS </b>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope"></i></a>
+    </div>
     <div class="col-lg-3 col-sm-12">
         <div class="circle-tile">
             <a href="<?php echo base_url('Mysms/smsSenderForm');?>">
@@ -231,7 +234,7 @@
                 <div class="circle-tile-number text-faded" style="color: gray;">
                     <?php echo number_format($sentsmsRes->num_rows(),0);?>
                     <span id="sparklineA"> </span>
-                    <a href="<?php echo base_url('Mysms/smsLogs');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">View</a>
+                    <!-- <a href="<?php //echo base_url('Mysms/smsLogs');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">View</a> -->
                 </div>
             </div>
         </div>
@@ -250,7 +253,7 @@
                 <div class="circle-tile-number text-faded" style="color: gray;">
                     <?php echo number_format(modules::load('Mysms')->get_where_custom1('sms_recipient', 'userid', $this->session->userdata('user_id'))->num_rows(),0); ?>
                     <span id="sparklineA"> </span>
-                    <a href="<?php echo base_url('Mysms/manageGroups');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">View</a>
+                    <!-- <a href="<?php //echo base_url('Mysms/manageGroups');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">View</a> -->
                 </div>
             </div>
         </div>
@@ -269,7 +272,7 @@
                 <div class="circle-tile-number text-faded" style="color: gray;">
                     <?php echo number_format($this->session->userdata('user_bundle'),0);?>
                     <span id="sparklineA"></span>
-                    <a href="<?php echo base_url('Mysms/buyCredit');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">Recharge</a>
+                    <!-- <a href="<?php //echo base_url('Mysms/buyCredit');?>" class="btn btn-sm btn-default pull-right" style="margin-right: 10px;">Recharge</a> -->
                 </div>
             </div>
         </div>

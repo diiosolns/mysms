@@ -65,7 +65,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a href="<?php echo base_url('Mysms/smsSenderForm');?>" class="btn btn-md btn-info" style="margin-top: 10px; margin-left: 20px;"><b>Send SMS </b>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope"></i></a>
+                <!-- <a href="<?php echo base_url('Mysms/smsSenderForm');?>" class="btn btn-md btn-info  " style="margin-top: 10px; margin-left: 20px;"><b>Send SMS </b>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope"></i></a> -->
                 <div class="navbar-right">
                     <ul class="nav navbar-nav">
 

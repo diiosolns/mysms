@@ -55,7 +55,8 @@ function sendSMS() {
 	$this->session->set_userdata('user_credit', $user->row()->credit);
 	//Get gatetails
 	$gateway = $this->mysms->get_where_custom1('sms_gateway', 'company', "NEXT SMS");
-	$url = $gateway->row()->base_url.'/test/text/single';
+	//$url = $gateway->row()->base_url.'/test/text/single';
+	$url = $gateway->row()->base_url.'/text/single';
 	$login = $gateway->row()->api_key;
 	//end Get gatetails
 
@@ -86,8 +87,8 @@ function sendSMS() {
 				//count num sms
 				$nmsms = ceil(strlen($message) / 153);
 		        //send sms
-		        $res = "";
-		        //$res = $this->smsSender($senderid, $to, $message, $login, $url);
+		        //$res = "";
+		        $res = $this->smsSender($senderid, $to, $message, $login, $url);
 		        //end send sms
 		        $sdata['sender'] = $senderid;
 		        $sdata['recipient'] = $to;
@@ -111,7 +112,8 @@ function sendSMS() {
 			$udata['credit'] = $creditRemained;
 			$this->mysms->_update_tb('sms_user', $userid, $udata);
 		} else {
-			$data['msg']="You do not have enough balance to send this SMS .";
+			//$data['msg']="You do not have enough balance to send this SMS .";
+			$data['msg']='<div class="alert alert-danger alert-dismissible"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><h4><i class="icon fa fa-info-circle"></i> Failed!</h4> You do not have enough balance to send this SMS . </div>';
 			$data['color']="red";
 		}
 
